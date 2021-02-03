@@ -197,10 +197,28 @@ When you have written a test where all cases pass, add, commit, and push your ch
 
 =================================================
 
+# Project Organization:
+
+Once you have cloned the project and you open VSCode, this is what you will see:
+
 <img src="lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## File system:
+
+On the left panel (Explorer, ) you will find the three most important folders in this directory:
+
+`_tests`: which holds your google test files. The grader will run these files to obtain your score. You will ignore `testA.cpp` for the most part. The bulk of your work will be done in `testB.cpp`.
+
+`includes`: contains a folder for each of the libraries / classes your project depends on. In this starter code, you only have a `stub` folder that contains `stub.h` and `stub.cpp`. These files are `#include`d in `testB.cpp`
+
+`build`: is where you go to build and run your project. This is where all your compiled and executable files will end up.
+
 <img src="lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
 </br>
+
+## A look at the test files:
+
 <img src="lab0_images/03-basic_test_testB_generic.png" alt="vscode_after_cloning" width="800"/>
 </br>
 <img src="lab0_images/04-cmakelists.png" alt="vscode_after_cloning" width="800"/>
