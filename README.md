@@ -2,7 +2,7 @@
 
 ## Part 1: Git and Github
 
-Git and Github are open source version control software. In this lab, you will be learning the basics of using git in the command line. You will need to have git installed in the command line to do this lab. If you do not have git installed on your system, please follow the instructions \<here>.
+Git and Github are open source version control software. In this lab, you will be learning the basics of using git in the command line. You will need to have git installed in the command line to do this lab. If you do not have git installed on your system, please follow the instructions [here](./Git_commands_.md).
 
 Git and Github are not the same thing. Git is the software used in the command line, and github is a website. \_\_\_
 
