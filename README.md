@@ -197,6 +197,91 @@ When you have written a test where all cases pass, add, commit, and push your ch
 
 =================================================
 
+---
+
+# Accept the assignment
+
+## accept assignment page:
+
+Once you click on the assignment link, we need you to _accept_ the assignment. This will create a repo under your github username.
+But before you click and accept the assignment, let's look at a couple of things a bit more carefully.
+
+<img src="lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="800"/>
+</br>
+##Your repo name:
+This is your repo name. The name of the assignment followed by your github name.
+
+<img src="lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## Accept the assignment
+
+You will _accept_ the assignment by clicking the green button.
+<img src="lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## Your assignment repo being created.
+
+Once you accept the assignment, github will begin to creat your assignment repo. You will see this page:
+
+<img src="lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## Your assignment repo:
+
+Give it a few seconds, and reload the page and you should see this:
+
+<img src="lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## look closer:
+
+Take a closer look and youwill see the link to your repo. Click it and you will find your assignment repo:
+
+<img src="lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## Your assignment repo:
+
+Bookmark this page or know how to get here. We'll need to check in here soon.
+
+<img src="lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## The **Code** button:
+
+The green button on the mid-right side that says **Code**, click it and that opens this box:
+
+Click the little clipboard and that will copy the link into your clipboard so you can paste it in the next step:
+
+<img src="lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## clone the assignment repo:
+
+First I `cd` into my projects folder and clone my project there.
+
+and then: `git clone [clone link] [destination_folder]`
+
+That's what's happening here. I don't like my folder name to be `lab_00_barkeshli`. I like `lab_00`, so, I give it the new name and that clones the project into a folder named `lab_00`
+
+<img src="lab0_images/a-08-clone_and_rename.png" alt="vscode_after_cloning" width="800"/>
+</br>
+ 
+ ## `cd` into this project folder:
+
+<img src="lab0_images/a-09-cd_into_project_folder.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## `code .`:
+
+this will open VSCode and loads the current folder into it.
+
+<img src="lab0_images/a-10-open_vscode_here.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## <BR><BR><BR><BR><BR>
+
 # Project Organization:
 
 Once you have cloned the project and you open VSCode, this is what you will see:
@@ -246,6 +331,10 @@ Not too much to see here. The stub is used in testB to demonstrate how a functio
 
 <img src="lab0_images/05-include_stub_h_cpp.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+---
+
+# Getting started with the project
 
 ## Find [`basic_test.cpp`](basic_test.cpp)
 
@@ -425,6 +514,10 @@ Now, we can go in and implement the functions one by one and write tests for the
 <img src="lab0_images/24-testB_before_edit.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
+---
+
+# Writing Tests:
+
 ## `testB`: our first test:
 
 After implementing the \_array_init and \_print_array functions, we will write a simple test that will verify that the \_init function works as it should.
@@ -494,6 +587,10 @@ Let's `make` and run `testB` to make sure our `test_append` and `test_at` pass:
 
 <img src="lab0_images/30-PASSED_three_tests.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+---
+
+# Completing the project
 
 ## Implement the `_find()` function on your own
 
