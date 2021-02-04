@@ -401,20 +401,25 @@ So, we must remove all those default values for the defalut arguments on every f
 
 and this time it will run successfully.
 
-## run `git status`, `add`, and `commit` with the message _success on make with stubs_
-
 This is a huge step. We now have a working project eventhough our functions are basically empty.
 
-Now, we can go in and fill the functions one by one and write tests for them. These tests will be written in the `testB.cpp` file.
+You can even run the `basic_test` from the `bin/` directory. Of course this will not run satisfactorily. You will get mostly garbage. -afterall, we are running on stubs!- but it **does** run!!
 
-### I cannot overstate the importance of having **regular** `commit`s in your project. This is a large part of the evaluation of your project by me.
+<img src="lab0_images/21x-make_run_basic_tet_with_empty_stubs.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## run `git status`, `add`, and `commit` with the message _success on make with stubs_
+
+### The importance of having **regular** `commit`s in your project cannot be overstated. This is a large part of the evaluation of your project by me.
 
 </br></br>
 
 <img src="lab0_images/22-git_add_commit.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
-## Fill in the functions one by one. `testB.cpp` can be seen waiting to host the test functions.
+## Implement `_array_init` and `_print_array`. `testB.cpp` can be seen waiting to host the test functions.
+
+Now, we can go in and implement the functions one by one and write tests for them. These tests will be written in the `testB.cpp` file.
 
 </br>
 <img src="lab0_images/24-testB_before_edit.png" alt="vscode_after_cloning" width="800"/>
@@ -494,19 +499,25 @@ Let's `make` and run `testB` to make sure our `test_append` and `test_at` pass:
 
 You will also write a `test_find()` function. Once you have implemented `_find()` and written the test function for it (don't forget to comment) you are ready to `make` and run `testB` once again.
 
-<img src="lab0_images/31-PASSED-basic_test.png" alt="vscode_after_cloning" width="800"/>
-</br>
-## Finally, we can run `basic_test.cpp`:
-Now that we have implemented all the functions that are used in `basic_test.cpp`, we can `make` and run this file.
-
-I cannot overemphasize how important it is for this test to be able to compile and run **without** your editing it in any way. If your project cannot compile and run `basic_test`, the grader will not be able to run your project.
+Once you have successfully run `testB` with `_find`, you `git add ` and ` commit` your changes:
 
 <img src="lab0_images/32-add_commit.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
-## `git add` and `git commit`
+<BR>
 
-we go back to the root directory by typing `cd ..` - remember that `..` means parent directory. `cd ..` means change directory to the parent.
+## Finally, we can run `basic_test.cpp`:
+
+Now that we have implemented all the functions that are used in `basic_test.cpp`, we can `make` and run this file.
+
+I cannot overemphasize how important it is for this test to be able to compile and run **without** your editing it in any way. If your project cannot compile and run `basic_test`, the grader will not be able to run your project.
+
+<img src="lab0_images/31-PASSED-basic_test.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## `git add` and the final `git commit`
+
+Let's go back to the root directory by typing `cd ..` - remember that `..` means parent directory. `cd ..` means change directory to the parent.
 
 My commit message will let me know what stage of the development I am in. I have just PASSED both the `basic_test` and `testB`
 <img src="lab0_images/33.png" alt="vscode_after_cloning" width="800"/>
