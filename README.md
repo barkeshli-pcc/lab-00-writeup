@@ -302,6 +302,10 @@ Function stubs are just function signatures with a return statement if needed.
 
 Function stubs are a quick way to get the project up and running. I find the students who adopt this method in their workflow have an easier time completing projects.
 
+### TIP:
+
+I normally copy the function signatures and paste them into the `.cpp` file. Then, I replace the `;` at the end of the line with braces (`{}`). Then, I add the returns whenever necessary.
+
 <img src="lab0_images/10-array_functions_cpp_stubs.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
@@ -315,13 +319,13 @@ Using the terminal in this way is very convenient.
 <img src="lab0_images/11-open_terminal.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
-## Go to build and run cmake:
+## Go to `build/` and run `cmake`:
 
-`cd` into the `build` folder, and from there, run `cmake ..`
+`cd` into the `build/` folder, and from there, run `cmake ..`
 
-This will run cmake on your _parent_ folder. cmake creates a bunch of files and you do not want these files in the root folde of your project. Running `cmake` from `build` will make sure all your auxilary files are created inside the `build` folder.
+This will run `cmake` on your _parent_ folder. (that's what `..` means. `cmake ..` means run `cmake` on my parent folder.)`cmake` creates a bunch of files and you do not want these files in the root folde of your project. Running `cmake` from `build/` will make sure all your auxilary files are created inside the `build/` folder.
 
-Hopefully, your `cmake` will run without any problems and it will tell you that "Build files are written to .../build"
+Hopefully, your `cmake` will run without any problems and it will tell you that "Build files are written to `. . . build/`"
 
 Now, we are ready to compile our project using `make`
 
@@ -446,8 +450,6 @@ Pay attention to the **naming conventions** for this course: The test suite will
 <img src="lab0_images/26.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
-# IT should say `testB` not `basic_test` in the screenshot! $%#$%@
-
 ## `make` and RUN!!
 
 This time, we will run `make` successfully and then, we run the `testB` executable by typing `./bin/testB`
@@ -463,25 +465,49 @@ This means that our test function returned `true`.
 <img src="lab0_images/27-make_run_testB.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
-## run `basic_test`:
+## Implement `_append` and `_at`:
 
-It is very important that you run the `baisc_test` very early on in your developement workflow to make sure your function signatures are what the grader expects.
+We have thus far implemented `_array_init` and `print_array`. Let's implement `_append` and `_at` as well.
 
-If you can't run `basic_test` successfully, then the grader will not be able to successfully run your project.
+You will _borrow_ my code for this particular lab, but make sure you comment the code very well.
 
-<img src="lab0_images/28-0-make_run_testB.png" alt="vscode_after_cloning" width="800"/>
-</br>
-<img src="lab0_images/28-1-PASSED-test_init.png" alt="vscode_after_cloning" width="800"/>
-</br>
+Once we have implemented `_append`, write the test for it in `testB.cpp`. Don't forget to add a `TEST( )` for the `test_append()` function.
+
 <img src="lab0_images/29_0_test_append.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+Obviously, this is done in the `testB.cpp` file. Again, do not forget to add the `TEST( )` function for `test_at()`
+
+Once again, you will _borrow_ my code for this particular lab, but make sure you comment the code very well.
+
 <img src="lab0_images/29_1_test_at.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `make` and run `testB.cpp` again:
+
+Let's `make` and run `testB` to make sure our `test_append` and `test_at` pass:
+
 <img src="lab0_images/30-PASSED_three_tests.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Implement the `_find()` function on your own
+
+You will also write a `test_find()` function. Once you have implemented `_find()` and written the test function for it (don't forget to comment) you are ready to `make` and run `testB` once again.
+
 <img src="lab0_images/31-PASSED-basic_test.png" alt="vscode_after_cloning" width="800"/>
 </br>
+## Finally, we can run `basic_test.cpp`:
+Now that we have implemented all the functions that are used in `basic_test.cpp`, we can `make` and run this file.
+
+I cannot overemphasize how important it is for this test to be able to compile and run **without** your editing it in any way. If your project cannot compile and run `basic_test`, the grader will not be able to run your project.
+
 <img src="lab0_images/32-add_commit.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `git add` and `git commit`
+
+we go back to the root directory by typing `cd ..` - remember that `..` means parent directory. `cd ..` means change directory to the parent.
+
+My commit message will let me know what stage of the development I am in. I have just PASSED both the `basic_test` and `testB`
 <img src="lab0_images/33.png" alt="vscode_after_cloning" width="800"/>
 </br>
