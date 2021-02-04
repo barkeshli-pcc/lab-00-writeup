@@ -24,7 +24,7 @@ To clone the assignment, run the command `git clone <repo_link>` in the terminal
 
 Running this comamnd will create a folder in the current directory named after the assignment repo. It should be the name of the assignment followed by your github username.
 
-![](post-clone.png)
+![](clone.png)
 
 Navigate into the new folder.
 
