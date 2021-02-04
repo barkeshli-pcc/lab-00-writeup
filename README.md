@@ -290,18 +290,73 @@ Normally, you will either be given these function signatures or you will _deduce
 
 <img src="lab0_images/09-array_functions_h.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Write function _stubs_
+
+Function stubs are just function signatures with a return statement if needed.
+
+Function stubs are a quick way to get the project up and running. I find the students who adopt this method in their workflow have an easier time completing projects.
+
 <img src="lab0_images/10-array_functions_cpp_stubs.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Open terminal:
+
+If you are using VSCode, you can open the terminal by pressing [ctrl][`]
+
+[`] is the key in the top left of the keyboard under [~]
+
+Using the terminal in this way is very convenient.
 <img src="lab0_images/11-open_terminal.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Go to build and run cmake:
+
+`cd` into the `build` folder, and from there, run `cmake ..`
+
+This will run cmake on your _parent_ folder. cmake creates a bunch of files and you do not want these files in the root folde of your project. Running `cmake` from `build` will make sure all your auxilary files are created inside the `build` folder.
+
+Hopefully, your `cmake` will run without any problems and it will tell you that "Build files are written to .../build"
+
+Now, we are ready to compile our project using `make`
+
 <img src="lab0_images/12-cmake_dot_dot.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `make`
+
+type `make` to compile your project:
+
+If you followed these steps faithfully, you will have the same syntax errors that I had, namely that all those functions we defined in `array_functions.h` and `.cpp` are **undefined!**
+
+We will spare you the suspense. The reason for this error is that we never added `array_functions.cpp` to our `CMakeLists.txt`. Remember that **all .cpp** files must be listed in the CMakeLists.txt under `ADD_EXECUTABLE`
 <img src="lab0_images/13-make.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `make` errors, zoomed in:
+
+Here is a closer, more readable look at the errors reported by `make`
+
 <img src="lab0_images/14-syntax erros.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## back at the `CMakeLists.txt`:
+
+Notice that we are missing the `array_functions.cpp` from the `basic_test` `ADD_EXECUTABLE` statement:
+
+So, let's add it...
+
 <img src="lab0_images/15-cmakelist_where to add.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Add `arrauy_functions.cpp` to the `ADD_EXECUTABLE(basic_test... )`
+
+**Do not** use commas to separate the files.
+
+**Do NOT** include `.h` files.
+
+Normally, **all** three executables will need all the `.cpp` files
+
 <img src="lab0_images/16-cmakelist_add_cpp.png" alt="vscode_after_cloning" width="800"/>
 </br>
 <img src="lab0_images/17-fix_syntax_errors.png" alt="vscode_after_cloning" width="800"/>
