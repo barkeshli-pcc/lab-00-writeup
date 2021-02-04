@@ -219,18 +219,75 @@ On the left panel (Explorer, ) you will find the three most important folders in
 
 ## A look at the test files:
 
+### basic_test.cpp: My sample test goes here.
+
+This is the placeholder file for a sample test file you wilkl be given for each and every project. The purpose of this file is to demonstrate the functionality of the project and for you to make sure that your function signatures and class declarations match the grader's expectations. (otherwise, your projects will not earn a score.)
+
+### testB.cpp: Your tests go here
+
+This is the file that will contain your tests of your own functions and classes. All your test fils that will demonstrate the correctness of your poject are housed here. Part of your grade relies on the quality and success of the tests in this file.
+
 <img src="lab0_images/03-basic_test_testB_generic.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## CMakeLists.txt
+
+### List your cpp files here
+
+the `CMakeLists.txt` file is what the cmake program looks at to know how to build your project. How the pieces fit together. The grader will also use this file to build your project on the server side (once you submit - push your projects to github)
+Please note that you will **only** make changes to the bottom half of this file.
+It's worth mentioning that every **.cpp** file that is used in any of your test files (main, basic_test, testA, testB) will have to be listed here. Notice how the stub.cpp is listed under ADD_EXECUTABLE(testB...)
 <img src="lab0_images/04-cmakelists.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## stub.h, stub.cpp
+
+Not too much to see here. The stub is used in testB to demonstrate how a function will be tested by the googletest framework in `testB.cpp`. All your functions and classes will be housed under their own folder (`stub/`, `array_functions/`, `vector/`, etc.) which will, in turn, go under the `includes/` folder.
+
 <img src="lab0_images/05-include_stub_h_cpp.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Find basic_test.cpp
+
+You will be supplied with a `baisc_test`.cpp file. You will copy this file and overwrite the existing _generic_ `basic_test.cpp` in your project folder. After this, you will **never** edit the `basic_test.cpp` file.
+
+`basic_test.cpp` demonstrtes the functionality of the project and gives you an opportunity to make sure your function signatures and class declarations match those of the grader.
+You should be able to compile and run the `basic_test.cpp` with your functions.
+
+Pay special attention to the `#include` path at the top. Your file structure has to be **exactly** the same as the one depicted here.
 <img src="lab0_images/06-basic_test_testA_copied.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Add a new folder to the `includes/` folder.
+
+name this folder `array_functions`.
+
+This is where you will add your `.h` and `.cpp` files
 <img src="lab0_images/07-add_array_function_folder.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Add two files to this folder.
+
+Name these two files `array_functions.h` and `array_functions.cpp`
+
 <img src="lab0_images/08.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Add the function signatures.
+
+add these function signatures to the `array_functions.h` file:
+
+```
+void _array_init(int a[], int size, int x=0);
+void _append(int a[], int& size, int append_me);
+int _find(const int a[], int size, int find_me);
+int& _at(int a[], int size, int pos);
+ostream& _print_array(const int a[], int size, ostream& outs = cout);
+
+```
+
+Normally, you will either be given these function signatures or you will _deduce_ them from the code in `basic_test.cpp`
+
 <img src="lab0_images/09-array_functions_h.png" alt="vscode_after_cloning" width="800"/>
 </br>
 <img src="lab0_images/10-array_functions_cpp_stubs.png" alt="vscode_after_cloning" width="800"/>
