@@ -359,28 +359,111 @@ Normally, **all** three executables will need all the `.cpp` files
 
 <img src="lab0_images/16-cmakelist_add_cpp.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `make` again:
+
+Let's run `make` again and pray that...
+
+... and, we have more syntax errors. Default arguments can only be specified in the declration of the function and **not** in the definition.
+
+So, we must remove all those default values for the defalut arguments on every function.
+
 <img src="lab0_images/17-fix_syntax_errors.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Fix the `_print_array` function...
+
 <img src="lab0_images/18-default_arg.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## by removing the default value `= cout`
+
 <img src="lab0_images/19-default_arg.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## Same with `_array_init`:
+
 <img src="lab0_images/20-default_arg.png" alt="vscode_after_cloning" width="800"/>
 </br>
 <img src="lab0_images/21.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `make` one more time:
+
+and this time it will run successfully.
+
+## run `git status`, `add`, and `commit` with the message _success on make with stubs_
+
+This is a huge step. We now have a working project eventhough our functions are basically empty.
+
+Now, we can go in and fill the functions one by one and write tests for them. These tests will be written in the `testB.cpp` file.
+
+### I cannot overstate the importance of having **regular** `commit`s in your project. This is a large part of the evaluation of your project by me.
+
+</br></br>
+
 <img src="lab0_images/22-git_add_commit.png" alt="vscode_after_cloning" width="800"/>
 </br>
-<img src="lab0_images/23-fill_in_stubs_print.png" alt="vscode_after_cloning" width="800"/>
+
+## Fill in the functions one by one. `testB.cpp` can be seen waiting to host the test functions.
+
 </br>
 <img src="lab0_images/24-testB_before_edit.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## `testB`: our first test:
+
+After implementing the \_array_init and \_print_array functions, we will write a simple test that will verify that the \_init function works as it should.
+
+The test function is boolean. It returns `true` if the init function works properly and false otgherwise.
+
+Call the `_array_init` function and then go through each and every cell and verify that each element is -1.
+
+If you find one cell that is not -1, return false.
+
+Note also that we return `true` at the end of the test function. I do this in every test function I write.
+
 <img src="lab0_images/25-test_init_array.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+#The `TEST` function:
+
+The `TEST` function is part of the googletest testing framework. To simplify our work, we always use the same format for the `TEST` function: Declare a `bool success` and assign it to the return value of the test function.
+
+Then, compare `success` with `1` or `true`
+
+A quick word about the two arguments of the `TEST` function:
+
+The first is the name of the _test suit_ and the second is the name of this very test. Each test suit may contain multiple tests. Later, we will write another test for the `_append` function with the same first argument as this test: `TEST_ARRAY`. By the time we are done, the `TEST_ARRAY` test suite will have three individual tests.
+
+Pay attention to the **naming conventions** for this course: The test suite will be in ALL CAPS with underscores between the words. The test names will be camel case and regular function names are all lower case with underscores.
+
 <img src="lab0_images/26.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+# IT should say `testB` not `basic_test` in the screenshot! $%#$%@
+
+## `make` and RUN!!
+
+This time, we will run `make` successfully and then, we run the `testB` executable by typing `./bin/testB`
+
+This means execute the file named `testB` that is located in the `bin` folder which is under the `current folder`. The bin folder is created by `make`
+
+remember that `.` means current folder and is not optional. You **must** include the dot in the call to execute `testB`
+
+This will display two successful test runs: one for the `stub` test that was already part of the project, and one for the `TestInit` that we just wrote.
+
+This means that our test function returned `true`.
+
 <img src="lab0_images/27-make_run_testB.png" alt="vscode_after_cloning" width="800"/>
 </br>
+
+## run `basic_test`:
+
+It is very important that you run the `baisc_test` very early on in your developement workflow to make sure your function signatures are what the grader expects.
+
+If you can't run `basic_test` successfully, then the grader will not be able to successfully run your project.
+
 <img src="lab0_images/28-0-make_run_testB.png" alt="vscode_after_cloning" width="800"/>
 </br>
 <img src="lab0_images/28-1-PASSED-test_init.png" alt="vscode_after_cloning" width="800"/>
