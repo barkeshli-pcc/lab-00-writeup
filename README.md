@@ -199,6 +199,55 @@ When you have written a test where all cases pass, add, commit, and push your ch
 
 ---
 
+<BR><BR><BR><BR><BR>
+
+# installing cmake
+
+## is `cmake` installed?
+
+Let's check to see if `cmake` is installed on your system: type `cmake --version` at the commandline.
+
+If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.
+
+<img src="lab0_images/b-00-cmake_version.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## install `cmake`
+
+We use `homebrew` to install `cmake`:
+
+```
+brew install cmake
+```
+
+This will go on and on...
+
+<img src="lab0_images/b-01-brew_install_cmake_1.png" alt="vscode_after_cloning" width="800"/>
+</br>
+... and on...
+
+<img src="lab0_images/b-01-brew_install_cmake_2.png" alt="vscode_after_cloning" width="800"/>
+</br>
+... and on...
+
+<img src="lab0_images/b-01-brew_install_cmake_3.png" alt="vscode_after_cloning" width="800"/>
+</br>
+... and on...
+Finally, cmake is installed!
+<img src="lab0_images/b-01-brew_install_cmake_4.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+## check the version of the cmake again:
+
+To make sure `cmake` is intalled correctly, run `cmake --version` again:
+
+<img src="lab0_images/b-00-cmake_version.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+---
+
+<BR><BR><BR><BR><BR>
+
 # Accept the assignment
 
 ## accept assignment page:
