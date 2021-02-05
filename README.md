@@ -1,5 +1,3 @@
-# <BR><BR><BR><BR><BR>
-
 # Mac Insructions</br>
 
 - ## [Installing `cmake`](#mac_installing_cmake)</br>
