@@ -56,6 +56,7 @@ This will go on and on...
 ... and on...
 
 </br>
+
 > <img src="lab0_images/b-01-brew_install_cmake_3.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
@@ -63,6 +64,7 @@ This will go on and on...
 ... and on...
 
 </br>
+
 > Finally, cmake is installed!
 > <img src="lab0_images/b-01-brew_install_cmake_4.png" alt="vscode_after_cloning" width="800"/>
 
