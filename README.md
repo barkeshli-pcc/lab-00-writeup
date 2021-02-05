@@ -272,6 +272,8 @@ One of the main tasks in this class is tracking changes made to the project. We 
 
 We use **git** to track changes.
 
+**Here**, we will make some small change to one of our files and walk through the entire process of tracking that change with `git`, just so you can get used to it.
+
 ## `git status`
 
 let's run `git status`. look at the response: It says there are not changes as of yet. That's correct, isn't it. We have not made any changes.
