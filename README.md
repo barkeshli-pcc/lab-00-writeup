@@ -199,7 +199,7 @@ When you have written a test where all cases pass, add, commit, and push your ch
 
 ---
 
-<BR><BR><BR><BR><BR>
+# <BR><BR><BR><BR><BR>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) installing cmake ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -209,8 +209,8 @@ Let's check to see if `cmake` is installed on your system: type `cmake --version
 
 If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.
 
-<img src="lab0_images/b-00-cmake_version.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/b-00-cmake_version.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## install `cmake`
 
@@ -222,31 +222,32 @@ brew install cmake
 
 This will go on and on...
 
-<img src="lab0_images/b-01-brew_install_cmake_1.png" alt="vscode_after_cloning" width="800"/>
-</br>
-... and on...
-
-<img src="lab0_images/b-01-brew_install_cmake_2.png" alt="vscode_after_cloning" width="800"/>
-</br>
-... and on...
-
-<img src="lab0_images/b-01-brew_install_cmake_3.png" alt="vscode_after_cloning" width="800"/>
-</br>
-... and on...
-Finally, cmake is installed!
-<img src="lab0_images/b-01-brew_install_cmake_4.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/b-01-brew_install_cmake_1.png" alt="vscode_after_cloning" width="800"/>
+> </br>
+> ... and on...
+> </br>
+> <img src="lab0_images/b-01-brew_install_cmake_2.png" alt="vscode_after_cloning" width="800"/>
+> </br>
+> ... and on...
+> </br>
+> <img src="lab0_images/b-01-brew_install_cmake_3.png" alt="vscode_after_cloning" width="800"/>
+> </br>
+> ... and on...
+> </br>
+> Finally, cmake is installed!
+> <img src="lab0_images/b-01-brew_install_cmake_4.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## check the version of the cmake again:
 
 To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
-<img src="lab0_images/b-00-cmake_version.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/b-00-cmake_version.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ---
 
-<BR><BR><BR><BR><BR>
+# <BR><BR><BR><BR><BR>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -255,47 +256,50 @@ To make sure `cmake` is intalled correctly, run `cmake --version` again:
 Once you click on the assignment link, we need you to _accept_ the assignment. This will create a repo under your github username.
 But before you click and accept the assignment, let's look at a couple of things a bit more carefully.
 
-<img src="lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="800"/>
-</br>
-##Your repo name:
+> <img src="lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="800"/>
+> </br>
+
+## Your repo name:
+
 This is your repo name. The name of the assignment followed by your github name.
 
-<img src="lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Accept the assignment
 
 You will _accept_ the assignment by clicking the green button.
-<img src="lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="800"/>
-</br>
+
+> <img src="lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Your assignment repo being created.
 
 Once you accept the assignment, github will begin to creat your assignment repo. You will see this page:
 
-<img src="lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Your assignment repo:
 
 Give it a few seconds, and reload the page and you should see this:
 
-<img src="lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## look closer:
 
 Take a closer look and youwill see the link to your repo. Click it and you will find your assignment repo:
 
-<img src="lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Your assignment repo:
 
 Bookmark this page or know how to get here. We'll need to check in here soon.
 
-<img src="lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## The **Code** button:
 
@@ -303,8 +307,8 @@ The green button on the mid-right side that says **Code**, click it and that ope
 
 Click the little clipboard and that will copy the link into your clipboard so you can paste it in the next step:
 
-<img src="lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## clone the assignment repo:
 
@@ -314,29 +318,31 @@ and then: `git clone [clone link] [destination_folder]`
 
 That's what's happening here. I don't like my folder name to be `lab_00_barkeshli`. I like `lab_00`, so, I give it the new name and that clones the project into a folder named `lab_00`
 
-<img src="lab0_images/a-08-clone_and_rename.png" alt="vscode_after_cloning" width="800"/>
-</br>
- 
- ## `cd` into this project folder:
+> <img src="lab0_images/a-08-clone_and_rename.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
-<img src="lab0_images/a-09-cd_into_project_folder.png" alt="vscode_after_cloning" width="800"/>
-</br>
+## `cd` into this project folder:
+
+> <img src="lab0_images/a-09-cd_into_project_folder.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `code .`:
 
 this will open VSCode and loads the current folder into it.
 
-<img src="lab0_images/a-10-open_vscode_here.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/a-10-open_vscode_here.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
-## <BR><BR><BR><BR><BR>
+---
+
+# <BR><BR><BR><BR><BR>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Project Organization: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 Once you have cloned the project and you open VSCode, this is what you will see:
 
-<img src="lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## File system:
 
@@ -348,8 +354,8 @@ On the left panel (Explorer, ) you will find the three most important folders in
 
 `build`: is where you go to build and run your project. This is where all your compiled and executable files will end up.
 
-<img src="lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
-</br>
+> <img src="lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
+> </br>
 
 ## A look at the test files:
 
@@ -361,8 +367,8 @@ This is the placeholder file for a sample test file you wilkl be given for each 
 
 This is the file that will contain your tests of your own functions and classes. All your test fils that will demonstrate the correctness of your poject are housed here. Part of your grade relies on the quality and success of the tests in this file.
 
-<img src="lab0_images/03-basic_test_testB_generic.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/03-basic_test_testB_generic.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## CMakeLists.txt
 
@@ -371,19 +377,22 @@ This is the file that will contain your tests of your own functions and classes.
 the `CMakeLists.txt` file is what the cmake program looks at to know how to build your project. How the pieces fit together. The grader will also use this file to build your project on the server side (once you submit - push your projects to github)
 Please note that you will **only** make changes to the bottom half of this file.
 It's worth mentioning that every **.cpp** file that is used in any of your test files (main, basic_test, testA, testB) will have to be listed here. Notice how the stub.cpp is listed under ADD_EXECUTABLE(testB...)
-<img src="lab0_images/04-cmakelists.png" alt="vscode_after_cloning" width="800"/>
-</br>
+
+> <img src="lab0_images/04-cmakelists.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## stub.h, stub.cpp
 
 Not too much to see here. The stub is used in testB to demonstrate how a function will be tested by the googletest framework in `testB.cpp`. All your functions and classes will be housed under their own folder (`stub/`, `array_functions/`, `vector/`, etc.) which will, in turn, go under the `includes/` folder.
 
-<img src="lab0_images/05-include_stub_h_cpp.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/05-include_stub_h_cpp.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ---
 
-# Getting started with the project
+# <BR><BR><BR><BR><BR>
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Getting started with the project ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ## Find [`basic_test.cpp`](basic_test.cpp)
 
@@ -398,23 +407,24 @@ Pay special attention to the `#include` path at the top. Your file structure has
 
 <br>
 
-<img src="lab0_images/06-basic_test_testA_copied.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/06-basic_test_testA_copied.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Add a new folder to the `includes/` folder.
 
 name this folder `array_functions`.
 
 This is where you will add your `.h` and `.cpp` files
-<img src="lab0_images/07-add_array_function_folder.png" alt="vscode_after_cloning" width="800"/>
-</br>
+
+> <img src="lab0_images/07-add_array_function_folder.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Add two files to this folder.
 
 Name these two files `array_functions.h` and `array_functions.cpp`
 
-<img src="lab0_images/08.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/08.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Add the function signatures.
 
@@ -431,8 +441,8 @@ ostream& _print_array(const int a[], int size, ostream& outs = cout);
 
 Normally, you will either be given these function signatures or you will _deduce_ them from the code in `basic_test.cpp`
 
-<img src="lab0_images/09-array_functions_h.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/09-array_functions_h.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Write function _stubs_
 
@@ -444,8 +454,8 @@ Function stubs are a quick way to get the project up and running. I find the stu
 
 I normally copy the function signatures and paste them into the `.cpp` file. Then, I replace the `;` at the end of the line with braces (`{}`). Then, I add the returns whenever necessary.
 
-<img src="lab0_images/10-array_functions_cpp_stubs.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/10-array_functions_cpp_stubs.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Open terminal:
 
@@ -454,8 +464,9 @@ If you are using VSCode, you can open the terminal by pressing [ctrl][`]
 [`] is the key in the top left of the keyboard under [~]
 
 Using the terminal in this way is very convenient.
-<img src="lab0_images/11-open_terminal.png" alt="vscode_after_cloning" width="800"/>
-</br>
+
+> <img src="lab0_images/11-open_terminal.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Go to `build/` and run `cmake`:
 
@@ -467,8 +478,8 @@ Hopefully, your `cmake` will run without any problems and it will tell you that 
 
 Now, we are ready to compile our project using `make`
 
-<img src="lab0_images/12-cmake_dot_dot.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/12-cmake_dot_dot.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `make`
 
@@ -477,15 +488,16 @@ type `make` to compile your project:
 If you followed these steps faithfully, you will have the same syntax errors that I had, namely that all those functions we defined in `array_functions.h` and `.cpp` are **undefined!**
 
 We will spare you the suspense. The reason for this error is that we never added `array_functions.cpp` to our `CMakeLists.txt`. Remember that **all .cpp** files must be listed in the CMakeLists.txt under `ADD_EXECUTABLE`
-<img src="lab0_images/13-make.png" alt="vscode_after_cloning" width="800"/>
-</br>
+
+> <img src="lab0_images/13-make.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `make` errors, zoomed in:
 
 Here is a closer, more readable look at the errors reported by `make`
 
-<img src="lab0_images/14-syntax erros.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/14-syntax erros.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## back at the `CMakeLists.txt`:
 
@@ -493,10 +505,10 @@ Notice that we are missing the `array_functions.cpp` from the `basic_test` `ADD_
 
 So, let's add it...
 
-<img src="lab0_images/15-cmakelist_where to add.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/15-cmakelist_where to add.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
-## Add `arrauy_functions.cpp` to the `ADD_EXECUTABLE(basic_test... )`
+## Add `array_functions.cpp` to the `ADD_EXECUTABLE(basic_test... )`
 
 **Do not** use commas to separate the files.
 
@@ -504,8 +516,8 @@ So, let's add it...
 
 Normally, **all** three executables will need all the `.cpp` files
 
-<img src="lab0_images/16-cmakelist_add_cpp.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/16-cmakelist_add_cpp.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `make` again:
 
@@ -515,25 +527,25 @@ Let's run `make` again and pray that...
 
 So, we must remove all those default values for the defalut arguments on every function.
 
-<img src="lab0_images/17-fix_syntax_errors.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/17-fix_syntax_errors.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Fix the `_print_array` function...
 
-<img src="lab0_images/18-default_arg.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/18-default_arg.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## by removing the default value `= cout`
 
-<img src="lab0_images/19-default_arg.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/19-default_arg.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Same with `_array_init`:
 
-<img src="lab0_images/20-default_arg.png" alt="vscode_after_cloning" width="800"/>
-</br>
-<img src="lab0_images/21.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/20-default_arg.png" alt="vscode_after_cloning" width="800"/>
+> </br>
+> <img src="lab0_images/21.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `make` one more time:
 
@@ -543,8 +555,8 @@ This is a huge step. We now have a working project eventhough our functions are 
 
 You can even run the `basic_test` from the `bin/` directory. Of course this will not run satisfactorily. You will get mostly garbage. -afterall, we are running on stubs!- but it **does** run!!
 
-<img src="lab0_images/21x-make_run_basic_tet_with_empty_stubs.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/21x-make_run_basic_tet_with_empty_stubs.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## run `git status`, `add`, and `commit` with the message _success on make with stubs_
 
@@ -552,20 +564,22 @@ You can even run the `basic_test` from the `bin/` directory. Of course this will
 
 </br></br>
 
-<img src="lab0_images/22-git_add_commit.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/22-git_add_commit.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Implement `_array_init` and `_print_array`. `testB.cpp` can be seen waiting to host the test functions.
 
 Now, we can go in and implement the functions one by one and write tests for them. These tests will be written in the `testB.cpp` file.
 
 </br>
-<img src="lab0_images/24-testB_before_edit.png" alt="vscode_after_cloning" width="800"/>
+> <img src="lab0_images/24-testB_before_edit.png" alt="vscode_after_cloning" width="800"/>
 </br>
 
 ---
 
-# Writing Tests:
+# <BR><BR><BR><BR><BR>
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Writing Tests: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ## `testB`: our first test:
 
@@ -579,8 +593,8 @@ If you find one cell that is not -1, return false.
 
 Note also that we return `true` at the end of the test function. I do this in every test function I write.
 
-<img src="lab0_images/25-test_init_array.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/25-test_init_array.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 #The `TEST` function:
 
@@ -594,8 +608,8 @@ The first is the name of the _test suit_ and the second is the name of this very
 
 Pay attention to the **naming conventions** for this course: The test suite will be in ALL CAPS with underscores between the words. The test names will be camel case and regular function names are all lower case with underscores.
 
-<img src="lab0_images/26.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/26.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `make` and RUN!!
 
@@ -609,8 +623,8 @@ This will display two successful test runs: one for the `stub` test that was alr
 
 This means that our test function returned `true`.
 
-<img src="lab0_images/27-make_run_testB.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/27-make_run_testB.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Implement `_append` and `_at`:
 
@@ -620,26 +634,27 @@ You will _borrow_ my code for this particular lab, but make sure you comment the
 
 Once we have implemented `_append`, write the test for it in `testB.cpp`. Don't forget to add a `TEST( )` for the `test_append()` function.
 
-<img src="lab0_images/29_0_test_append.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/29_0_test_append.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 Obviously, this is done in the `testB.cpp` file. Again, do not forget to add the `TEST( )` function for `test_at()`
 
 Once again, you will _borrow_ my code for this particular lab, but make sure you comment the code very well.
 
-<img src="lab0_images/29_1_test_at.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/29_1_test_at.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `make` and run `testB.cpp` again:
 
 Let's `make` and run `testB` to make sure our `test_append` and `test_at` pass:
 
-<img src="lab0_images/30-PASSED_three_tests.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/30-PASSED_three_tests.png" alt="vscode_after_cloning" width="800"/>
 
 ---
 
-# Completing the project
+# <BR><BR><BR><BR><BR>
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Completing the project ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ## Implement the `_find()` function on your own
 
@@ -647,8 +662,8 @@ You will also write a `test_find()` function. Once you have implemented `_find()
 
 Once you have successfully run `testB` with `_find`, you `git add ` and ` commit` your changes:
 
-<img src="lab0_images/32-add_commit.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/32-add_commit.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 <BR>
 
@@ -658,13 +673,14 @@ Now that we have implemented all the functions that are used in `basic_test.cpp`
 
 I cannot overemphasize how important it is for this test to be able to compile and run **without** your editing it in any way. If your project cannot compile and run `basic_test`, the grader will not be able to run your project.
 
-<img src="lab0_images/31-PASSED-basic_test.png" alt="vscode_after_cloning" width="800"/>
-</br>
+> <img src="lab0_images/31-PASSED-basic_test.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## `git add` and the final `git commit`
 
 Let's go back to the root directory by typing `cd ..` - remember that `..` means parent directory. `cd ..` means change directory to the parent.
 
 My commit message will let me know what stage of the development I am in. I have just PASSED both the `basic_test` and `testB`
-<img src="lab0_images/33.png" alt="vscode_after_cloning" width="800"/>
-</br>
+
+> <img src="lab0_images/33.png" alt="vscode_after_cloning" width="800"/>
+> </br>
