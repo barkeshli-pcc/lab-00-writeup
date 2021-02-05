@@ -409,16 +409,16 @@ Enter `git log` and see what the response is. What does this command do?
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Getting started with the project ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-## Find [`basic_test.cpp`](basic_test.cpp)
+## Find <a href="./basic_test.cpp" target="_blank">`basic_test.cpp`</a>
 
-You will be supplied with a [`basic_test.cpp`](basic_test.cpp) file. You will copy this file and overwrite the existing _generic_ `basic_test.cpp` in your project folder. After this, you will **never** edit the `basic_test.cpp` file.
+You will be supplied with a <a href="./basic_test.cpp" target="_blank">`basic_test.cpp`</a> file. You will copy this file and overwrite the existing _generic_ `basic_test.cpp` in your project folder. After this, you will **never** edit the `basic_test.cpp` file.
 
-[`basic_test.cpp`](basic_test.cpp) demonstrtes the functionality of the project and gives you an opportunity to make sure your function signatures and class declarations match those of the grader.
+<a href="./basic_test.cpp" target="_blank">`basic_test.cpp`</a> demonstrtes the functionality of the project and gives you an opportunity to make sure your function signatures and class declarations match those of the grader.
 You should be able to compile and run the `basic_test.cpp` with your functions.
 
 Pay special attention to the `#include` path at the top. Your file structure has to be **exactly** the same as the one depicted here.
 
-###### click [here](basic_test.cpp) to download basic_test.cpp if you have not already.
+###### click <a href="./basic_test.cpp" target="_blank">here</a> to download basic_test.cpp if you have not already.
 
 <br>
 
