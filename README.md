@@ -201,7 +201,7 @@ When you have written a test where all cases pass, add, commit, and push your ch
 
 <BR><BR><BR><BR><BR>
 
-# installing cmake
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) installing cmake ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ## is `cmake` installed?
 
@@ -248,7 +248,7 @@ To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
 <BR><BR><BR><BR><BR>
 
-# Accept the assignment
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ## accept assignment page:
 
@@ -331,7 +331,7 @@ this will open VSCode and loads the current folder into it.
 
 ## <BR><BR><BR><BR><BR>
 
-# Project Organization:
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Project Organization: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 Once you have cloned the project and you open VSCode, this is what you will see:
 
