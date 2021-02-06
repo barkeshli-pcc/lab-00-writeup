@@ -1,5 +1,6 @@
 # Windows Insructions</br>
 
+- ## [opening commandline](#win_opening_terminal)</br>
 - ## [Installing `git`](#win_installing_git)</br>
 - ## [Installing `cmake`](#win_installing_cmake)</br>
 - ## [Installing `MinGW`](#win_installing_mingw)</br>
@@ -19,6 +20,40 @@
 
 # <BR><BR><BR><BR><BR>
 
+<a name="win_build_and_run_walkthrough"></a>
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough [**MOVE ME SOMEWHERE**]![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+
+</br>
+
+> <img src="images/win_images/run-00-running_compiling_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/run-00-running_compiling_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/run-00-running_compiling_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+# <BR><BR><BR><BR><BR>
+
+<a name="win_opening_terminal"></a>
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Opening the terminal ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+
+</br>
+
+> <img src="images/win_images/!com-00-open_command_line.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+---
+
+# <BR><BR><BR><BR><BR>
+
 <a name="win_installing_git"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Installing git ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
@@ -28,12 +63,111 @@
 download: https://git-scm.com/download/win
 get 64 bit version
 
+> <img src="images/win_images/git-00-git_version.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_06.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_07.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_08png.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_09.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_10.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_11.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_12.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-01-download_git_13.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/git-02-git_version.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
 </br>
 
 <a name="win_installing_cmake"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Installing cmake ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
+> <img src="images/win_images/cm-00-download_site.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_06.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-01-download_07.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
 
 ## is `cmake` installed?
 
@@ -49,8 +183,7 @@ If you do not get a response similar to this, then you do not have `cmake` on yo
 
 https://tulip.labri.fr/TulipDrupal/?q=node/1081
 
-Download CMake for Windows here: 
-
+Download CMake for Windows here:
 
 </br>
 
@@ -75,10 +208,73 @@ To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Install MinGW ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-
 text goes here
 
 download link: https://sourceforge.net/projects/mingw/files/
+
+</br>
+
+> <img src="images/win_images/g++-00-g++_version.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-01-download_06.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_06.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/g++-02-selection_07.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -421,8 +617,7 @@ Enter `git log` and see what the response is. What does this command do?
 
 build googetest and g++ build
 
-</br>
----
+## </br>
 
 # <BR><BR><BR><BR><BR>
 
@@ -515,7 +710,6 @@ Using the terminal in this way is very convenient.
 </br>
 
 </br>
-
 
 ## Go to `build/` and run `cmake`:
 
