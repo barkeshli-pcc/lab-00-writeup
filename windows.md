@@ -8,35 +8,214 @@
 - ## [Project organization](#win_project_organization)</br>
 
 - ## [Quick edit, `status`, `add`, `commit`, & `push`](#win_quick_edit_status_add_commit_n_push)</br>
+
+- ## [Build and run walkthrough](#win_build_and_run_walkthrough)</br>
+
 - ## [Getting started with the project](#win_getting_started_with_the_project)</br>
 - ## [Writing tests](#win_writing_tests)</br>
 - ## [Completing the project](#win_completing_the_project)
 
 # <BR><BR><BR><BR><BR>
 
+> <img src="images/win_images/Quick-00-quick_edit_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_06.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_06.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_07.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_08.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_09.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_10.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_11.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_12.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_13.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_14.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_15.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_16.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_17.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_18.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-00-basic_test_19.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-01-testb_test_init_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-01-testb_test_init_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-01-testb_test_init_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-02-testb_test_append_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-02-testb_test_append_001.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-02-testb_test_append_003.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-03_commit_push_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-03_commit_push_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-03_commit_push_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_00.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_01.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_04.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_05.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_07.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_08.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_10.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_11.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_12.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_13.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_14.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/test-04_reslts_github_15.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
 # <BR><BR><BR><BR><BR>
 
 ---
-
-# <BR><BR><BR><BR><BR>
-
-<a name="win_build_and_run_walkthrough"></a>
-
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough [**MOVE ME SOMEWHERE**]![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-
-</br>
-
-> <img src="images/win_images/run-00-running_compiling_00.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/run-00-running_compiling_02.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/run-00-running_compiling_03.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
 
 # <BR><BR><BR><BR><BR>
 
@@ -609,13 +788,26 @@ Enter `git log` and see what the response is. What does this command do?
 
 # <BR><BR><BR><BR><BR>
 
-<a name="win_build_walkthrough"></a>
+<a name="win_build_and_run_walkthrough"></a>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Build Walkthrough ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+
+</br>
+build googetest and g++ build
+
+> <img src="images/win_images/run-00-running_compiling_00.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
-build googetest and g++ build
+> <img src="images/win_images/run-00-running_compiling_02.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+> <img src="images/win_images/run-00-running_compiling_03.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+# <BR><BR><BR><BR><BR>
 
 ## </br>
 
