@@ -140,9 +140,9 @@ To make sure `git` is intalled correctly, run `git --version` again:
 
 ## is `cmake` installed?
 
-Let's check to see if `git` is installed on your system: type `git --version` at the commandline.
+Let's check to see if `cmake` is installed on your system: type `cmake --version` at the commandline.
 
-If you do not get a response similar to this, then you do not have `git` on your system and you have to install it.
+If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.
 
 > <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="800"/>
 
@@ -214,15 +214,26 @@ If you do not get a response similar to this, then you do not have `cmake` on yo
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Install MinGW ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-text goes here
+## is `MinGW` installed?
 
-download link: https://sourceforge.net/projects/mingw/files/
+Let's check to see if `g++` is installed on your system: type `g++ --version` at the commandline.
 
-</br>
+If you do not get a response similar to this, then you do not have `g++` and/or `MinGW` on your system and you have to install it.
 
 > <img src="images/win_images/g++-00-g++_version.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+## Download `MinGW`
+
+Download cmake from: https://sourceforge.net/projects/mingw/files/. You should get an exe: `mingw-get-setup (1).exe`
+
+
+</br>
+
+## Install `MinGW`/`g++`
+
+Open/run the executable, and follow the steps to install.
 
 > <img src="images/win_images/g++-01-download_00.png" alt="vscode_after_cloning" width="800"/>
 
@@ -232,54 +243,56 @@ download link: https://sourceforge.net/projects/mingw/files/
 
 </br>
 
+The default Installation location should be C:/MinGW. Once again, you can add a Desktop shortcut, but it will not be neccesary for this class.
+
 > <img src="images/win_images/g++-01-download_02.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+If you get a warning that MinGW is already installed, you can either reinstall and continue with this walkthrough or choose Run Now and skip to the steps below with the MinGW Install Manager.
 
 > <img src="images/win_images/g++-01-download_03.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Installing..
 > <img src="images/win_images/g++-01-download_04.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
-> <img src="images/win_images/g++-01-download_05.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
+When it is done installing, click Continue.
 > <img src="images/win_images/g++-01-download_06.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+The MinGW Installation Manager should be opened up automatically. For this class, you will need mingw32-base, mingw-gcc-g++, and mingw23-gcc-objc.
 
 > <img src="images/win_images/g++-02-selection_00.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+To select a package for installation, right click on it in the menu and select Mark for Installation.
+
 > <img src="images/win_images/g++-02-selection_01.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
-> <img src="images/win_images/g++-02-selection_02.png" alt="vscode_after_cloning" width="800"/>
+Marked packages will be selected like this:
+> <img src="images/win_images/g++-02-selection_02_zoom.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Once all neccesary packages have been marked, go to Installations > Apply Changes to install.
 > <img src="images/win_images/g++-02-selection_03.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Click Apply
 > <img src="images/win_images/g++-02-selection_04.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
-> <img src="images/win_images/g++-02-selection_05.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/g++-02-selection_06.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
+Once the changes are applied you may close the Installation Manager.
 > <img src="images/win_images/g++-02-selection_07.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
