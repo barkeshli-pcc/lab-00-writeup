@@ -646,9 +646,14 @@ Once your project is open in VS Code, we will do a quick excersise to show you h
 
 </br>
 
+<a name="win_build_googletesr_framework"></a>
+
+## Build googletest framework
+
 There are two .bat files you will use to build and compile your project: gtest.bat and build.bat. gtest.bat only needs to be run once to build the googletest framework so we can use it to test the rest of the project. It must be run before build.bat.
 
-Navigate into the build folder and run gtest.bat by entering .`\build.bat` into the terminal. The output should look like this.
+Navigate into the build folder and run gtest.bat by entering .`\build.bat` into the terminal. This will run a series of commands that build the googletest framework for you. This process creates a bunch of files and you do not want these files in the root folder of your project. The `gtest.bat` file from `build/` will make sure all your auxilary files are created inside the `build/` folder. The output should look like this.
+
 > <img src="images/win_images/run-00-running_compiling_02.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
@@ -768,35 +773,44 @@ Using the terminal in this way is very convenient.
 
 </br>
 
-## Go to `build/` and run `cmake`:
+## Go to `build/` and run `gtest.bat`:
 
-`cd` into the `build/` folder, and from there, run `cmake ..`
+`cd` into the `build/` folder, and from there, run `.\gtest.bat`
 
-This will run `cmake` on your _parent_ folder. (that's what `..` means. `cmake ..` means run `cmake` on my parent folder.)`cmake` creates a bunch of files and you do not want these files in the root folde of your project. Running `cmake` from `build/` will make sure all your auxilary files are created inside the `build/` folder.
+Now, we are ready to compile our project using `.\build.bat`
 
-Hopefully, your `cmake` will run without any problems and it will tell you that "Build files are written to `. . . build/`"
-
-Now, we are ready to compile our project using `make`
-
+If you followed these steps faithfully, you will have the same syntax errors that I had, namely that all those functions we defined in `array_functions.h` and `.cpp` are **undefined!**
+ 
 </br>
 
 > <img src="images/win_images/test-00-basic_test_06.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
-## `make` errors, zoomed in:
+## `build.bat` errors, zoomed in:
 
-Here is a closer, more readable look at the errors reported by `make`
+Here is a closer, more readable look at the errors reported by `.\build.bat`
 
-# please zoom oin the errors here (crop it, thanks)
 
 </br>
 
-> <img src="images/win_images/test-00-basic_test_07.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/win_images/test-00-basic_test_07_zoom.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
 ## the batch file
+
+We will spare you the suspense. The reason for this error is that we never added `array_functions.cpp` to our `build.bat`. 
+
+Explaining one line in buld.bat: `g++ -std-gnb++11 -o basic_test ../_tests/_test_files/basic_test.cpp ../oncludes/stub/stub.cpp -Igoogletest/googletest/include` ... etc. 
+
+`basic_test` in this command is the name of the executable that will be created.
+
+Starting from `-Igoogletest/googletest/include`, there is nothing you need to change in the line. This is a googletest option.
+
+**All .cpp** files must be listed in the build.bat between the executable name an the googletest options at the end of each command.
+
+
 
 </br>
 
@@ -808,28 +822,21 @@ Here is a closer, more readable look at the errors reported by `make`
 
 </br>
 
-> <img src="images/win_images/test-00-basic_test_09.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/win_images/test-00-basic_test_09_zoom.png" alt="vscode_after_cloning" width="800"/>
 
 > </br>
 
-## `make`
-
-type `make` to compile your project:
-
-If you followed these steps faithfully, you will have the same syntax errors that I had, namely that all those functions we defined in `array_functions.h` and `.cpp` are **undefined!**
-
-We will spare you the suspense. The reason for this error is that we never added `array_functions.cpp` to our `CMakeLists.txt`. Remember that **all .cpp** files must be listed in the CMakeLists.txt under `ADD_EXECUTABLE`
-
-</br>
-
-> <img src="images/win_images/test-00-basic_test_10.png" alt="vscode_after_cloning" width="800"/>
-> </br>
 
 ## back at the `CMakeLists.txt`:
+
+Do not forget to update your CMakeLists.txt for the autograder as well.
 
 Notice that we are missing the `array_functions.cpp` from the `basic_test` `ADD_EXECUTABLE` statement:
 
 So, let's add it...
+
+> <img src="images/win_images/test-00-basic_test_10.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 </br>
 </br>
@@ -851,9 +858,9 @@ Normally, **all** three executables will need all the `.cpp` files
 > <img src="images/win_images/test-00-basic_test_12.png" alt="vscode_after_cloning" width="800"/>
 > </br/>
 
-## `make` again:
+## `.\build.bat` again:
 
-Let's run `make` again and pray that...
+Let's run `.\build` again and pray that...
 
 ... and, we have more syntax errors. Default arguments can only be specified in the declration of the function and **not** in the definition.
 
@@ -882,13 +889,13 @@ So, we must remove all those default values for the defalut arguments on every f
 > <img src="images/win_images/test-00-basic_test_15.png" alt="vscode_after_cloning" width="800"/>
 > </br>
 
-## `make` one more time:
+## `.\build.bat` one more time:
 
 and this time it will run successfully.
 
 This is a huge step. We now have a working project eventhough our functions are basically empty.
 
-You can even run the `basic_test` from the `bin/` directory. Of course this will not run satisfactorily. You will get mostly garbage. -afterall, we are running on stubs!- but it **does** run!!
+You can even run `basic_test.exe`. Of course this will not run satisfactorily. You will get mostly garbage. -afterall, we are running on stubs!- but it **does** run!!
 
 > </br>
 
@@ -967,11 +974,7 @@ Pay attention to the **naming conventions** for this course: The test suite will
 
 ## `make` and RUN!!
 
-This time, we will run `make` successfully and then, we run the `testB` executable by typing `./bin/testB`
-
-This means execute the file named `testB` that is located in the `bin` folder which is under the `current folder`. The bin folder is created by `make`
-
-remember that `.` means current folder and is not optional. You **must** include the dot in the call to execute `testB`
+This time, we will run `.\build.bat` successfully and then, we run the `testB` executable by typing `.\testB.exe`
 
 This will display two successful test runs: one for the `stub` test that was already part of the project, and one for the `TestInit` that we just wrote.
 
@@ -1008,9 +1011,9 @@ Once again, you will _borrow_ my code for this particular lab, but make sure you
 > <img src="images/win_images/test-02-testb_test_append_001.png" alt="vscode_after_cloning" width="800"/>
 > </br>
 
-## `make` and run `testB.cpp` again:
+## `.\build.bat` and run `testB.cpp` again:
 
-Let's `make` and run `testB` to make sure our `test_append` and `test_at` pass:
+Let's `.\build.bat` and run `testB` to make sure our `test_append` and `test_at` pass:
 
 </br>
 
@@ -1026,9 +1029,9 @@ Let's `make` and run `testB` to make sure our `test_append` and `test_at` pass:
 
 ## Implement the `_find()` function on your own
 
-You will also write a `test_find()` function. Once you have implemented `_find()` and written the test function for it (don't forget to comment) you are ready to `make` and run `testB` once again.
+You will also write a `test_find()` function. Once you have implemented `_find()` and written the test function for it (don't forget to comment) you are ready to `.\build.bat` and run `testB` once again.
 
-Once you have successfully run `testB` with `_find`, you `git add ` and ` commit` your changes:
+Once you have successfully run `testB` with `_find`, you `git add ` and ` commit` your changes. Once again, do not forget to update your CMakeLists.txt file for the autograder.
 
 </br>
 
@@ -1051,19 +1054,14 @@ Let's go back to the root directory by typing `cd ..` - remember that `..` means
 
 My commit message will let me know what stage of the development I am in. I have just PASSED both the `basic_test` and `testB`
 
-</br>
-
-> <img src="images/win_images/test-03_commit_push_03.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/test-04_reslts_github_00.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
 > <img src="images/win_images/test-04_reslts_github_01.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+## Autograder Status
+
+You can keep track of the grading status of your project on the assigmment page. A yellow dot means that the tests are still being compiled and run by the autograder.This shouldn't take more than a minute or two. You can refresh the page to update the status. A green checkmark neans that all your tests have passed. A red x means that at least one test failed.
+
 
 > <img src="images/win_images/test-04_reslts_github_02.png" alt="vscode_after_cloning" width="800"/>
 
@@ -1073,10 +1071,12 @@ My commit message will let me know what stage of the development I am in. I have
 
 </br>
 
+To see a more in depth output of the autograder test runs, click on the Details link:
 > <img src="images/win_images/test-04_reslts_github_05.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+It will take you to this page: 
 > <img src="images/win_images/test-04_reslts_github_07.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
