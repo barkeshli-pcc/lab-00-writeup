@@ -124,7 +124,7 @@ You may view release notes if you want.
 
 </br>
 
-## check the version of the git again:
+## Check the version of the git again:
 
 To make sure `git` is intalled correctly, run `git --version` again:
 
@@ -195,7 +195,7 @@ When it is done installing, click Finish.
 
 </br>
 
-## check the version of the git again:
+## Check the version of the git again:
 
 To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
@@ -295,7 +295,7 @@ Once the changes are applied you may close the Installation Manager.
 
 </br>
 
-## check the version of the g++ again:
+## Check the version of the g++ again:
 
 To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again:
 
@@ -404,11 +404,7 @@ That's what's happening here. I don't like my folder name to be `lab_00_barkeshl
 
 </br>
 
-## `code .`:
-
-this will open VSCode and loads the current folder into it.
-
-> <img src="" alt="" width="800"/>
+We will be using VS Code to view and edit our code. Open your newly cloned project int VS Code.
 
 </br>
 
@@ -597,11 +593,8 @@ Your bash prompt on your terminal:
 
 </br>
 
-# please crop to `git branch` so they know how to find their branch name. Thank you.
 
-</br>
-
-> <img src="images/win_images/Quick-00-quick_edit_06.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/win_images/Quick-00-quick_edit_06_zoom.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -621,7 +614,7 @@ If your command is successful, you will get a response similar to this:
 
 Take a look at your project repo on Github. See how the changes you made to README.md shows on your repo:
 
-> <img src="lab0_images/d-05-gh_changed.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/d-05-gh_changed.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 </br>
@@ -647,15 +640,22 @@ Enter `git log` and see what the response is. What does this command do?
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 </br>
-build googetest and g++ build
 
+Once your project is open in VS Code, we will do a quick excersise to show you how to run it.
 > <img src="images/win_images/run-00-running_compiling_00.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+There are two .bat files you will use to build and compile your project: gtest.bat and build.bat. gtest.bat only needs to be run once to build the googletest framework so we can use it to test the rest of the project. It must be run before build.bat.
+
+Navigate into the build folder and run gtest.bat by entering .`\build.bat` into the terminal. The output should look like this.
 > <img src="images/win_images/run-00-running_compiling_02.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+build.bat needs to be run every time you make changes to your code. It creates executable files that you can run in the terminal. Run build.bat by entering `.\build.bat` into the VS Code terminal. It will create 3 executable files: testA.exe, testB.exe, and basic_test.exe.
+
+Once your executables have been sucessfully created, you can run the basic_test.exe by entering `.\basic_test.exe` into the VS Code terminal.
 
 > <img src="images/win_images/run-00-running_compiling_03.png" alt="vscode_after_cloning" width="800"/>
 
