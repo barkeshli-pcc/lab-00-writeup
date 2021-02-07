@@ -138,26 +138,49 @@ To make sure `git` is intalled correctly, run `git --version` again:
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Installing cmake ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
+## is `cmake` installed?
+
+Let's check to see if `git` is installed on your system: type `git --version` at the commandline.
+
+If you do not get a response similar to this, then you do not have `git` on your system and you have to install it.
+
+> <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+## Download `cmake`
+
+Download cmake from: https://cmake.org/download/. Choose the Windows win64-x64 Installer. You should get an msi: `cmake-3.19.4-win64-x64.msi`
+
 > <img src="images/win_images/cm-00-download_site.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+## Install `cmake`
+
+Open/run the executable, and follow the steps to install.
 
 > <img src="images/win_images/cm-01-download_00.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Check I accept the terms in the Liscense Agreement.
 > <img src="images/win_images/cm-01-download_01.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+Make sure to select Add CMake to the system PATH for all users. You can create a Desktop icon if you want, but you will not need to use it for this class.
 
 > <img src="images/win_images/cm-01-download_03.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+The default install location wshould be C:\Program Files\CMake\
 > <img src="images/win_images/cm-01-download_04.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Install!
 > <img src="images/win_images/cm-01-download_05.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
@@ -166,11 +189,9 @@ To make sure `git` is intalled correctly, run `git --version` again:
 
 </br>
 
+When it is done installing, click Finish.
 > <img src="images/win_images/cm-01-download_07.png" alt="vscode_after_cloning" width="800"/>
 
-</br>
-
-> <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -180,30 +201,10 @@ Let's check to see if `cmake` is installed on your system: type `cmake --version
 
 If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.
 
-> <img src="win_images/cmake_version.png" alt="" width="800"/>
+> <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
-## install `cmake`
-
-https://tulip.labri.fr/TulipDrupal/?q=node/1081
-
-Download CMake for Windows here:
-
-</br>
-
-> Finally, cmake is installed!
-> <img src="" alt="" width="800"/>
-
-</br>
-
-## check the version of the cmake again:
-
-To make sure `cmake` is intalled correctly, run `cmake --version` again:
-
-> <img src="" alt="" width="800"/>
-
-</br>
 
 ---
 
