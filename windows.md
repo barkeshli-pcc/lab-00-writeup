@@ -41,52 +41,68 @@
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Installing git ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-</br>
+## is `git` installed?
 
-download: https://git-scm.com/download/win
-get 64 bit version
+Let's check to see if `git` is installed on your system: type `git --version` at the commandline.
+
+If you do not get a response similar to this, then you do not have `git` on your system and you have to install it.
 
 > <img src="images/win_images/git-00-git_version.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+## Download `git` 
+
+Download git from the `Click here to download manually` link here: https://git-scm.com/download/win. You should get an exe: `Git-2.30.0.2-64-bit.exe`
+
+
 > <img src="images/win_images/git-01-download_git_00.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+## Install `git`
+
+Open/run the executable, and follow the steps to install.
+
+</br>
+
+Choose Default.
 > <img src="images/win_images/git-01-download_git_01.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Choose Git Credential Manager Core.
 > <img src="images/win_images/git-01-download_git_02.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Select Only show new options if not selected, and click next.
 > <img src="images/win_images/git-01-download_git_03.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Choose Let git decide.
 > <img src="images/win_images/git-01-download_git_04.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Choose Use OpenSSH.
 > <img src="images/win_images/git-01-download_git_05.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Choose Default (fast-forward or merge).
 > <img src="images/win_images/git-01-download_git_06.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+Choose Git Credential Manager Core
 > <img src="images/win_images/git-01-download_git_07.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+And Install!
 > <img src="images/win_images/git-01-download_git_08png.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/git-01-download_git_09.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -98,13 +114,19 @@ get 64 bit version
 
 </br>
 
+When it is done installing, click Finish.
 > <img src="images/win_images/git-01-download_git_12.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
+You may view release notes if you want.
 > <img src="images/win_images/git-01-download_git_13.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
+
+## check the version of the git again:
+
+To make sure `git` is intalled correctly, run `git --version` again:
 
 > <img src="images/win_images/git-02-git_version.png" alt="vscode_after_cloning" width="800"/>
 
@@ -278,7 +300,7 @@ download link: https://sourceforge.net/projects/mingw/files/
 Once you click on the [assignment link](https://classroom.github.com/a/fLYc41OT), we need you to _accept_ the assignment. This will create a repo under your github username.
 But before you click and accept the assignment, let's look at a couple of things a bit more closely.
 
-> <img src="lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -286,7 +308,7 @@ But before you click and accept the assignment, let's look at a couple of things
 
 This is your repo name. The name of the assignment followed by your github name.
 
-> <img src="lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -294,7 +316,7 @@ This is your repo name. The name of the assignment followed by your github name.
 
 You will _accept_ the assignment by clicking the green button.
 
-> <img src="lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -302,7 +324,7 @@ You will _accept_ the assignment by clicking the green button.
 
 Once you accept the assignment, github will begin to creat your assignment repo. You will see this page:
 
-> <img src="lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -310,7 +332,7 @@ Once you accept the assignment, github will begin to creat your assignment repo.
 
 Give it a few seconds, and reload the page and you should see this:
 
-> <img src="lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -318,7 +340,7 @@ Give it a few seconds, and reload the page and you should see this:
 
 Take a closer look and youwill see the link to your repo. Click it and you will find your assignment repo:
 
-> <img src="lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -326,7 +348,7 @@ Take a closer look and youwill see the link to your repo. Click it and you will 
 
 Bookmark this page or know how to get here. We'll need to check in here soon.
 
-> <img src="lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -336,7 +358,7 @@ The green button on the mid-right side that says **Code**, click it and that ope
 
 Click the little clipboard and that will copy the link into your clipboard so you can paste it in the next step. You will use this url to clone your repo:
 
-> <img src="lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -380,7 +402,7 @@ this will open VSCode and loads the current folder into it.
 
 Once you have cloned the project and you open VSCode, this is what you will see:
 
-> <img src="lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -396,7 +418,7 @@ On the left panel (Explorer, ) you will find the `main.cpp` on the root folder, 
 
 `build`: is where you go to build and run your project. This is where all your compiled and executable files will end up.
 
-> <img src="lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
 
 </br>
 
@@ -410,7 +432,7 @@ This is the placeholder file for a sample test file you wilkl be given for each 
 
 This is the file that will contain your tests of your own functions and classes. All your test fils that will demonstrate the correctness of your poject are housed here. Part of your grade relies on the quality and success of the tests in this file.
 
-> <img src="lab0_images/03-basic_test_testB_generic.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/03-basic_test_testB_generic.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -429,7 +451,7 @@ The grader will also use this file to build your project on the server side (onc
 Please note that you will **only** make changes to the bottom half of this file.
 It's worth mentioning that every **.cpp** file that is used in any of your test files (main, basic_test, testA, testB) will have to be listed here. Notice how the stub.cpp is listed under ADD_EXECUTABLE(testB...)
 
-> <img src="lab0_images/04-cmakelists.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/04-cmakelists.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -437,7 +459,7 @@ It's worth mentioning that every **.cpp** file that is used in any of your test 
 
 Not too much to see here. The stub is used in testB to demonstrate how a function will be tested by the googletest framework in `testB.cpp`. All your functions and classes will be housed under their own folder (`stub/`, `array_functions/`, `vector/`, etc.) which will, in turn, go under the `includes/` folder.
 
-> <img src="lab0_images/05-include_stub_h_cpp.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/lab0_images/05-include_stub_h_cpp.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
