@@ -457,47 +457,22 @@ We use **git** to track changes.
 
 **Here**, we will make some small change to one of our files and walk through the entire process of tracking that change with `git`, just so you can get used to it.
 
-> <img src="images/win_images/Quick-00-quick_edit_00.png" alt="vscode_after_cloning" width="800"/>
-
 </br>
 
-> <img src="images/win_images/Quick-00-quick_edit_01.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/Quick-00-quick_edit_02.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/Quick-00-quick_edit_03.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/Quick-00-quick_edit_04.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/Quick-00-quick_edit_05.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-
-> <img src="images/win_images/Quick-00-quick_edit_06.png" alt="vscode_after_cloning" width="800"/>
-
-</br>
-`
 ## `git status`
 
 let's run `git status`. look at the response: It says there are not changes as of yet. That's correct, isn't it. We have not made any changes.
 
-> <img src="lab0_images/c-00-git_status_1.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/win_images/Quick-00-quick_edit_00.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
 ## Edit the README.md
 
 Enter your name in the README.md and save it.
+</br>
 
-> <img src="lab0_images/c-01-edit_readme.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/win_images/Quick-00-quick_edit_01.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -524,7 +499,9 @@ Think of it this way... There are four zones:
 
 You go from zone to zone by the commands listed above.
 
-> <img src="lab0_images/c-02-git_status_2.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_02.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -534,7 +511,9 @@ In order to _stage_ the changes for `commit`, Enter `git add README.md`. This wi
 
 do `get status` again. Now, you see that `README.md` has been _staged_
 
-> <img src="lab0_images/c-03-git_add_status_again.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_03.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -550,17 +529,19 @@ Here,`-m` is a switch that tells `git` that you will be typing a message to docu
 
 Try typing in your own message in your own words.
 
-> <img src="lab0_images/c-04-git_commit.png" alt="vscode_after_cloning" width="800"/>
-
 </br>
+
+> <img src="images/win_images/Quick-00-quick_edit_04.png" alt="vscode_after_cloning" width="800"/>
+> </br>
 
 ## Has Github assignment repo changed?
 
 Take a look at your assignment repo on your browser. You will see that eventhough you have committed your changes, Github does not know about them!
 
 `commit`ting only records your changes on your local machine.
+</br>
 
-> <img src="lab0_images/d-00-commit_gh_has_not_changed.png" alt="vscode_after_cloning" width="800"/>
+> <img src="images/win_images/Quick-00-quick_edit_05.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
@@ -572,17 +553,7 @@ For me, the branch name is `master` as evidenced by these images.
 
 Your bash prompt on your terminal:
 
-> <img src="lab0_images/d-02-git_prompt.png" alt="vscode_after_cloning" width="200"/>
-> </br>
-
-the branch name on your Github repo page:
-
-> <img src="lab0_images/d-06-branch_name.png" alt="vscode_after_cloning" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <img src="lab0_images/d-06-branch_name_zoom.png" alt="vscode_after_cloning" width="300"/>
-
 </br>
-
-</br>
-
 </br>
 
 ## `git push`:
@@ -591,7 +562,9 @@ Since my branch name is `master`, I will issue the command `git push origin mast
 
 If your command is successful, you will get a response similar to this:
 
-> <img src="lab0_images/d-01-push_origin_master.png" alt="vscode_after_cloning" width="800"/>
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_06.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
