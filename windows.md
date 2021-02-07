@@ -554,6 +554,13 @@ For me, the branch name is `master` as evidenced by these images.
 Your bash prompt on your terminal:
 
 </br>
+
+# please crop to `git branch` so they know how to find their branch name. Thank you.
+
+</br>
+
+> <img src="images/win_images/Quick-00-quick_edit_06.png" alt="vscode_after_cloning" width="800"/>
+
 </br>
 
 ## `git push`:
