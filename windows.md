@@ -195,11 +195,9 @@ When it is done installing, click Finish.
 
 </br>
 
-## is `cmake` installed?
+## check the version of the git again:
 
-Let's check to see if `cmake` is installed on your system: type `cmake --version` at the commandline.
-
-If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.
+To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
 > <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="800"/>
 
@@ -294,6 +292,14 @@ Click Apply
 
 Once the changes are applied you may close the Installation Manager.
 > <img src="images/win_images/g++-02-selection_07.png" alt="vscode_after_cloning" width="800"/>
+
+</br>
+
+## check the version of the g++ again:
+
+To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again:
+
+> <img src="images/win_images/g++-00-g++_version.png" alt="vscode_after_cloning" width="800"/>
 
 </br>
 
