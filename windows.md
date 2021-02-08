@@ -749,9 +749,7 @@ Once your executables have been sucessfully created, you can run the basic_test.
 
 </br>
 
-# <BR><BR><BR><BR><BR>
 
-## </br>
 
 # <BR><BR><BR><BR><BR>
 
