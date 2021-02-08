@@ -533,6 +533,21 @@ Not too much to see here. The stub is used in testB to demonstrate how a functio
 
 ---
 
+## Open terminal:
+
+If you are using VSCode, you can open the terminal by pressing [ctrl][`]
+
+[`] is the key in the top left of the keyboard under [~]
+
+Using the terminal in this way is very convenient.
+
+<br/><br/>
+
+> <img src="images/win_images/test-00-basic_test_05.png" alt="vscode_after_cloning" width="1000"/>
+
+</br>
+
+
 # <BR><BR><BR><BR><BR>
 
 <a name="win_quick_edit_status_add_commit_n_push"></a>
@@ -820,20 +835,6 @@ I normally copy the function signatures and paste them into the `.cpp` file. The
 
 > <img src="images/win_images/test-00-basic_test_04.png" alt="vscode_after_cloning" width="1000"/>
 > </br>
-
-## Open terminal:
-
-If you are using VSCode, you can open the terminal by pressing [ctrl][`]
-
-[`] is the key in the top left of the keyboard under [~]
-
-Using the terminal in this way is very convenient.
-
-<br/><br/>
-
-> <img src="images/win_images/test-00-basic_test_05.png" alt="vscode_after_cloning" width="1000"/>
-
-</br>
 
 ## Build googletest framework
 
