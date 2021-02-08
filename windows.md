@@ -870,7 +870,7 @@ We will spare you the suspense. The reason for this error is that we never added
 
 A brief explanation of the line of code in buld.bat follows:
 <br/>
-`g++ -std-gnb++11 -o basic_test ../_tests/_test_files/basic_test.cpp ../oncludes/stub/stub.cpp -Igoogletest/googletest/include`
+`g++ -std-gnb++11 -o basic_test ../_tests/_test_files/basic_test.cpp ../includes/stub/stub.cpp -Igoogletest/googletest/include`
 
 `basic_test` in this command is the name of the executable that will be created.
 
@@ -973,10 +973,6 @@ You can even run `basic_test.exe`. Of course this will not run satisfactorily. Y
 ### The importance of having **regular** `commit`s in your project cannot be overstated. This is a large part of the evaluation of your project by me.
 
 </br></br>
-
-> <img src="images/win_images/test-00-basic_test_17.png" alt="vscode_after_cloning" width="1000"/>
-
-</br>
 
 > <img src="images/win_images/test-00-basic_test_18.png" alt="vscode_after_cloning" width="1000"/>
 
@@ -1161,11 +1157,11 @@ It will take you to this page:
 
 </br>
 
-> <img src="images/win_images/test-04_reslts_github_10.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/win_images/test-04_reslts_github_10_zoom.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
 
-> <img src="images/win_images/test-04_reslts_github_11.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/win_images/test-04_reslts_github_11_zoom.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
 
@@ -1175,9 +1171,6 @@ It will take you to this page:
 
 > <img src="images/win_images/test-04_reslts_github_13.png" alt="vscode_after_cloning" width="1000"/>
 
-</br>
-
-> <img src="images/win_images/test-04_reslts_github_14.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
 
