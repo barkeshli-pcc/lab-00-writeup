@@ -350,13 +350,13 @@ To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again:
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-## Here is the [Assignment Link](https://classroom.github.com/a/fLYc41OT)
+## Here is the [Assignment Link](https://classroom.github.com/a/qidO1KYV)
 
 # </br>
 
 ## Accept assignment page:
 
-Once you click on the [assignment link](https://classroom.github.com/a/fLYc41OT), we need you to _accept_ the assignment. This will create a repo under your github username.
+Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV), we need you to _accept_ the assignment. This will create a repo under your github username.
 But before you click and accept the assignment, let's look at a couple of things a bit more closely.
 <br/><br/>
 
@@ -546,7 +546,6 @@ Using the terminal in this way is very convenient.
 > <img src="images/win_images/test-00-basic_test_05.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
-
 
 # <BR><BR><BR><BR><BR>
 
@@ -748,8 +747,6 @@ Once your executables have been sucessfully created, you can run the basic_test.
 > <img src="images/win_images/run-00-running_compiling_03.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
-
-
 
 # <BR><BR><BR><BR><BR>
 
@@ -1170,7 +1167,6 @@ It will take you to this page:
 </br>
 
 > <img src="images/win_images/test-04_reslts_github_13.png" alt="vscode_after_cloning" width="1000"/>
-
 
 </br>
 

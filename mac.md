@@ -86,13 +86,13 @@ To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-## Here is the [Assignment Link](https://classroom.github.com/a/fLYc41OT)
+## Here is the [Assignment Link](https://classroom.github.com/a/qidO1KYV)
 
 # </br>
 
 ## Accept assignment page:
 
-Once you click on the [assignment link](https://classroom.github.com/a/fLYc41OT), we need you to _accept_ the assignment. This will create a repo under your github username.
+Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV), we need you to _accept_ the assignment. This will create a repo under your github username.
 But before you click and accept the assignment, let's look at a couple of things a bit more closely.
 
 > <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="1000"/>
@@ -749,7 +749,7 @@ Git and Github are not the same thing. Git is the software used in the command l
 
 Before we begin learning how to use git on the command line, you need to accept an assignment on github.
 
-Follow this [assignment link](https://classroom.github.com/a/s0uF0VL7) to accept the assignment.
+Follow this [assignment link](https://classroom.github.com/a/qidO1KYV) to accept the assignment.
 
 Once you have accepted the assignment, copy the repo link by clicking on the green button that says Code, and then clicking the clipboard button. This automatically copies the repo link to your clipboard.
 
