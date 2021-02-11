@@ -350,7 +350,7 @@ To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again:
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-## Here is the [Assignment Link](https://classroom.github.com/a/qidO1KYV)
+## Here is the **assignment link** for [CS3A](https://classroom.github.com/a/qidO1KYV) and here is the link for [CS8](https://classroom.github.com/a/DYb_nBnE)
 
 # </br>
 

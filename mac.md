@@ -86,13 +86,13 @@ To make sure `cmake` is intalled correctly, run `cmake --version` again:
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-## Here is the [Assignment Link](https://classroom.github.com/a/qidO1KYV)
+## Here is the **assignment link** for [CS3A](https://classroom.github.com/a/qidO1KYV) and here is the link for [CS8](https://classroom.github.com/a/DYb_nBnE)
 
 # </br>
 
 ## Accept assignment page:
 
-Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV), we need you to _accept_ the assignment. This will create a repo under your github username.
+Once you click on the assignment link, we need you to _accept_ the assignment. This will create a repo under your github username.
 But before you click and accept the assignment, let's look at a couple of things a bit more closely.
 
 > <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="1000"/>
