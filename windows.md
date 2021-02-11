@@ -333,7 +333,7 @@ Once the changes are applied you may close the Installation Manager.
 
 </br>
 
-## Add g++ to the path
+## Add g++ as a System Variable
 
 Search for "path" in the task bar search box. Open Edit the system environment variables.
 
