@@ -351,6 +351,9 @@ Add the path to the gcc and g++ executables to environment variables as shown be
 
 > <img src="images/win_images/g++-03-path_02.png" alt="vscode_after_cloning" width="600"/>
 
+It should look like this after you are done: 
+
+> <img src="images/win_images/g++-03-path_03.png" alt="vscode_after_cloning" width="600"/>
 </br>
 
 ## Check the version of the g++ again:
