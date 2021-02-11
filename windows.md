@@ -333,6 +333,26 @@ Once the changes are applied you may close the Installation Manager.
 
 </br>
 
+## Add g++ to the path
+
+Search for "path" in the task bar search box. Open Edit the system environment variables.
+
+> <img src="images/win_images/g++-03-path_00.png" alt="vscode_after_cloning" width="600"/>
+<br/>
+
+Click on "Environment Variables..."
+> <img src="images/win_images/g++-03-path_01.png" alt="vscode_after_cloning" width="600"/>
+
+<br/>
+
+Add the path to the gcc and g++ executables to environment variables as shown below
+
+<br/>
+
+> <img src="images/win_images/g++-03-path_02.png" alt="vscode_after_cloning" width="600"/>
+
+</br>
+
 ## Check the version of the g++ again:
 
 To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again:
