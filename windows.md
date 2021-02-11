@@ -333,7 +333,7 @@ Once the changes are applied you may close the Installation Manager.
 
 </br>
 
-## Add g++ as a System Variable
+## Add g++ as a System Variable and to your path
 
 Search for "path" in the task bar search box. Open Edit the system environment variables.
 
@@ -345,20 +345,33 @@ Click on "Environment Variables..."
 
 <br/>
 
-Add the path to the gcc and g++ executables to environment variables as shown below
+Add the path to the gcc and g++ executables to environment variables as shown below and press OK.
 
 <br/>
 
 > <img src="images/win_images/g++-03-path_02.png" alt="vscode_after_cloning" width="600"/>
 
-It should look like this after you are done: 
+<br/>
 
-> <img src="images/win_images/g++-03-path_03.png" alt="vscode_after_cloning" width="600"/>
+Next, double click on the **user variable** Path (in the top half of the window). A window like this should pop up:
+
+> <img src="images/win_images/g++-03-path_before.png" alt="vscode_after_cloning" width="600"/>
+</br>
+
+Click New, and enter C:\MinGW\bin to the text box. Click OK.
+
+> <img src="images/win_images/g++-03-path_after.png" alt="vscode_after_cloning" width="400"/>
+</br>
+
+Your environment and user variables should look like this after you are done: 
+
+> <img src="images/win_images/g++-03-path_03.png" alt="vscode_after_cloning" width="400"/>
 </br>
 
 ## Check the version of the g++ again:
 
-To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again:
+To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again. If the version output doesn't show, reboot your machine and try again.
+
 <br/><br/>
 
 > <img src="images/win_images/g++-00-g++_version.png" alt="vscode_after_cloning" width="1000"/>
