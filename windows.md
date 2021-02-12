@@ -478,13 +478,13 @@ and then: `git clone [clone link] [destination_folder]`
 
 That's what's happening here. I don't like my folder name to be `lab_00_barkeshli`. I like `lab_00`, so, I give it the new name and that clones the project into a folder named `lab_00`
 
-> <img src="" alt="" width="1000"/>
+> <img src="images/lab0_images/a-08-clone_and_rename.png" alt="" width="1000"/>
 
 </br>
 
 ## `cd` into this project folder:
 
-> <img src="" alt="" width="1000"/>
+> <img src="images/lab0_images/a-09-cd_into_project_folder.png" alt="" width="1000"/>
 
 </br>
 
