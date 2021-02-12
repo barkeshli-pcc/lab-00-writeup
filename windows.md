@@ -338,9 +338,10 @@ Once the changes are applied you may close the Installation Manager.
 Search for "path" in the task bar search box. Open Edit the system environment variables.
 
 > <img src="images/win_images/g++-03-path_00.png" alt="vscode_after_cloning" width="600"/>
-<br/>
+> <br/>
 
 Click on "Environment Variables..."
+
 > <img src="images/win_images/g++-03-path_01.png" alt="vscode_after_cloning" width="600"/>
 
 <br/>
@@ -356,17 +357,17 @@ Add the path to the gcc and g++ executables to environment variables as shown be
 Next, double click on the **user variable** Path (in the top half of the window). A window like this should pop up:
 
 > <img src="images/win_images/g++-03-path_before.png" alt="vscode_after_cloning" width="600"/>
-</br>
+> </br>
 
 Click New, and enter C:\MinGW\bin to the text box. Click OK.
 
 > <img src="images/win_images/g++-03-path_after.png" alt="vscode_after_cloning" width="400"/>
-</br>
+> </br>
 
-Your environment and user variables should look like this after you are done: 
+Your environment and user variables should look like this after you are done:
 
 > <img src="images/win_images/g++-03-path_03.png" alt="vscode_after_cloning" width="400"/>
-</br>
+> </br>
 
 ## Check the version of the g++ again:
 
@@ -768,7 +769,7 @@ To simplify this process, and the building of your project, a pair of batch file
 
 The two .bat files you will use to build and compile your project: gtest.bat and build.bat will be included with your startup code for every project.
 
-Navigate into the build folder and run gtest.bat by entering .`\build.bat` into the terminal. This will run a series of commands that build the googletest framework for you. This process creates a bunch of files and you do not want these files in the root folder of your project. Running the `gtest.bat` file from `build/` will make sure all your auxilary files are created inside the `build/` folder. The output should look like this.
+Navigate into the build folder and run gtest.bat by entering .`\gtest.bat` into the terminal. This will run a series of commands that build the googletest framework for you. This process creates a bunch of files and you do not want these files in the root folder of your project. Running the `gtest.bat` file from `build/` will make sure all your auxilary files are created inside the `build/` folder. The output should look like this.
 <br/><br/>
 
 > <img src="images/win_images/run-00-running_compiling_02.png" alt="vscode_after_cloning" width="1000"/>
