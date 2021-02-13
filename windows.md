@@ -323,16 +323,24 @@ Marked packages will be selected like this:
 
 > <img src="images/win_images/g++-02-selection_02_zoom.png" alt="vscode_after_cloning" width="1000"/>
 
-</br>
+<br/><br/>
+
+you **also** need to select the pthreads package from under <br/>
+All Packages -> MinGW Libraries
+<br/><br/>
+
+> <img src="images/win_images/99-01-pthread.png" alt="vscode_after_cloning" width="1000"/>
+
+</br></br>
 
 Once all neccesary packages have been marked, go to Installations > Apply Changes to install.
 <br/><br/>
 
 > <img src="images/win_images/g++-02-selection_03.png" alt="vscode_after_cloning" width="1000"/>
 
-</br>
-
+<br/><br/>
 Click Apply
+
 <br/><br/>
 
 > <img src="images/win_images/g++-02-selection_04.png" alt="vscode_after_cloning" width="1000"/>
@@ -370,9 +378,10 @@ Add the path to the gcc and g++ executables to environment variables as shown be
 Next, double click on the **user variable** Path (in the top half of the window). A window like this should pop up:
 
 > <img src="images/win_images/g++-03-path_before.png" alt="vscode_after_cloning" width="600"/>
-> </br>
+>  </br></br>
 
 Click New, and enter C:\MinGW\bin to the text box. Click OK.
+</br></br>
 
 > <img src="images/win_images/g++-03-path_after.png" alt="vscode_after_cloning" width="400"/>
 > </br>
