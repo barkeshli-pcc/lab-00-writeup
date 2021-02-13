@@ -138,6 +138,19 @@ You may view release notes if you want.
 
 > <img src="images/win_images/git-01-download_git_13.png" alt="vscode_after_cloning" width="1000"/>
 
+<br/><br/>
+
+## Tell git who you are:
+
+Give git your name and email address:
+
+```
+git config --global user.name "barkeshli, sassan"
+git config --global user.email sxbarkeshli@pasadena.edu
+
+```
+
+<br/><br/>
 </br>
 
 ## Check the version of the git again:
@@ -758,6 +771,34 @@ Once your project is open in VS Code, we will do a quick excersise to show you h
 > <img src="images/win_images/run-00-running_compiling_00.png" alt="vscode_after_cloning" width="1000"/>
 
 </br>
+
+</br></br></br>
+
+## The batch files:
+
+The two batch files gtest.bat and build.bat should look like this:
+gtest.bat:
+
+```
+git clone https://github.com/google/googletest.git
+cd googletest && mkdir build && cd build && cmake -G "MinGW Makefiles" .. && make && cd ../../
+```
+
+if this gives you trouble, try replacing make with MinGW32-make like this:
+
+```
+git clone https://github.com/google/googletest.git
+cd googletest && mkdir build && cd build && cmake -G "MinGW Makefiles" .. && MinGW32-make && cd ../../
+```
+
+build.bat:
+
+```
+g++ -std=gnu++11 -o basic_test ../_tests/_test_files/basic_test.cpp -Igoogletest/googletest/include -pthread -Lgoogletest/build/lib -lgtest
+g++ -std=gnu++11 -o testA ../_tests/_test_files/testA.cpp ../includes/stub/stub.cpp -Igoogletest/googletest/include -pthread -Lgoogletest/build/lib -lgtest
+g++ -std=gnu++11 -o testB ../_tests/_test_files/testB.cpp ../includes/stub/stub.cpp -Igoogletest/googletest/include -pthread -Lgoogletest/build/lib -lgtest
+
+```
 
 <a name="win_build_googletesr_framework"></a>
 

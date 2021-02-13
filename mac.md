@@ -1,5 +1,6 @@
 # Mac Insructions</br>
 
+- ## [Installing `git`](#mac_installing_git)</br>
 - ## [Installing `cmake`](#mac_installing_cmake)</br>
 - ## [Accepting the assignment](#mac_accepting_the_assignment)</br>
 - ## [Project organization](#mac_project_organization)</br>
@@ -13,7 +14,24 @@
 
 # <BR><BR><BR><BR><BR>
 
----
+<a name="mac_installing_git"></a>
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) installing git ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+
+You may have to install git.
+use `homebrew` to install git.
+
+<br/><br/>
+
+## Tell git who you are:
+
+Once git is installed, you may need to let it know who you are: Give git your name and email address:
+
+```
+git config --global user.name "barkeshli, sassan"
+git config --global user.email sxbarkeshli@pasadena.edu
+
+```
 
 # <BR><BR><BR><BR><BR>
 
