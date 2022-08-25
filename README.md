@@ -9,15 +9,13 @@ You will learn about:
 - Accepting assignments from Github Classroom.
 - "cloning" projects from Github.
 - staging and committing your changes.
-- dealing with `cmake` and `CMakeLists.txt`.
 - building and running C++ programs from the command-line.
-- Basics of `gtest` (google test).
 - Getting up and running with a brand new project.
-- completing a project and pushing the results to Github for grading.
+- completing a project and pushing the results to Github.
 
 This is probably the most important project of this semester and a lot of time and effort has gone into assuing that you have a quick and gentle learning curve and have an easy time completing your projects.
 
-Please go through this lab / tutorial patiently and carefully, paying attention to the _why_ and _what_ as well as the _how_.
+**IMPORTANT:** Please go through this lab/tutorial patiently and carefully, paying attention to the _why_ and _what_ as well as the _how_.
 
 So, let's get started by picking your platform:
 
