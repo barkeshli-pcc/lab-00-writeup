@@ -183,7 +183,21 @@ Install CMake and CMake Tools if they are not already installed.<br>
 
 <br>
 
-You should be able to right click on CMakeLists.txt
+In `CMakeLists.txt`, make sure the lines:
+```
+# GoogleTest requires at least C++11
+set(CMAKE_CXX_STANDARD 11)
+```
+are *not* present on lines 4-5.<br>
+
+If they are, move them to line 41, directly above the line
+```
+enable_testing()
+```
+
+<br>
+
+Right click on `CMakeLists.txt`
 Click on “Clean Reconfigure All Projects”:<br>
 
 > <img src=images/lab0_images/Picture3.png>
