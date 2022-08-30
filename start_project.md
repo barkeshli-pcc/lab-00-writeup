@@ -1,7 +1,12 @@
 # Starting the lab
-Author's note: images will be of the professor's machine and my own, so please bear with the differences for now. Mine (the ones in dark mode) take precedence, so ignore possible differences on the other images.
 
-<br>
+- ## [Accept the assignment ](#accept-the-assignment)
+- ## [Project Organization ](#)
+- ## [Build and run walkthrough ](#build-and-run-walkthrough)
+- ## [Writing Tests](#writing-testswriting)
+- ## [Completing the Project](#completing-the-project)
+
+<br><br><br><br><br>
 
 <a name="win_accepting_the_assignment"></a>
 
@@ -205,8 +210,8 @@ Click on “Clean Reconfigure All Projects”:<br>
 <br>
 
 A prompt should appear on top, just click:
-- “GCC 6.3.0 mingw” for Windows
-- “Clang 11.0.0” (or something similar) for Mac
+- “GCC 6.3.0 mingw32” for Windows
+- “Clang 11.0.0” (or similar) for Mac
 
 > <img src=images/lab0_images/Picture4.png>
 
@@ -216,8 +221,6 @@ A prompt should appear on top, just click:
 
 > <img src=images/lab0_images/Picture5.png>
 
-<br>
-
 *If it does not show “GCC 6.3.0 mingw32,” click on that button and select it. If there is no option, try scanning for kits and try again.*<br>
 
 The output should look like this:
@@ -226,9 +229,9 @@ The output should look like this:
 
 <br>
 
-You will only need to Reconfigure only once per project<br>
+You will only need to Reconfigure only once per project.[\*](#cmake-troubleshooting)<br>
 
-Now you can click on the cog that says build on the button. Once that is complete, click on the play button and select basic_test to run.<br>
+Now you can click on the cog that says build on the bottom of the window. Once that is complete, click on the play button and select basic_test to run.<br>
 Your output will look like this.
 
 > <img src=images/lab0_images/Picture7.png>
@@ -239,9 +242,7 @@ If this has been done successfully, you can finally start working on the project
 
 ## Cmake Troubleshooting
 
-*WIP*
-
-Most problems can be easily resolved be deleting the build folder Reconfiguring again.<br><br>
+Most problems can be easily resolved be deleting the build folder Reconfiguring again. This may need to be done often as subsequent builds do not take into account any new/deleted files. If you have added or removed a file since you last Reconfigured, you may need to do so again.<br><br>
 
 ## Find <a href="./basic_test.cpp" target="_blank">`basic_test.cpp`</a>
 
@@ -410,10 +411,6 @@ This will display two successful test runs: one for the `stub` test that was alr
 
 This means that our test function returned `true`.<br>
 
-> <img src="images/win_images/test-01-testb_test_init_01.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
 > <img src="images/win_images/test-01-testb_test_init_03.png" alt="vscode_after_cloning" width="1000"/>
 
 <br>
@@ -456,7 +453,7 @@ Let's build and run `testB` to make sure our `test_append` and `test_at` pass:
 
 ## Implement the `_find()` function on your own
 
-You will also write a `test_find()` function. Once you have implemented `_find()` and written the test function for it (don't forget to comment) you are ready to `.\build.bat` and run `testB` once again.
+You will also write a `test_find()` function. Once you have implemented `_find()` and written the test function for it (don't forget to comment) you are ready to build and run `testB` once again.
 
 Once you have successfully run `testB` with `_find`, you `git add ` and ` commit` your changes. Once again, do not forget to update your CMakeLists.txt file for the autograder.<br>
 
@@ -478,10 +475,9 @@ I cannot overemphasize how important it is for this test to be able to compile a
 
 Let's go back to the root directory by typing `cd ..` - remember that `..` means parent directory. `cd ..` means change directory to the parent.
 
-My commit message will let me know what stage of the development I am in. I have just PASSED both the `basic_test` and `testB`
+My commit message will let me know what stage of the development I am in. I have just PASSED both the `basic_test` and `testB`<br>
 
-<br>
-
+*This image is different because I am unable to push. Ignore everything else ***except*** the push message.*<br>
 > <img src="images/win_images/test-04_reslts_github_01.png" alt="vscode_after_cloning" width="1000"/>
 
 <br>
