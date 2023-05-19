@@ -1,10 +1,10 @@
 # Starting the lab
 
-- ## [Accept the assignment ](#accept-the-assignment)
-- ## [Project Organization ](#project-organization)
-- ## [Build and run walkthrough ](#build-and-run-walkthrough)
-- ## [Writing Tests](#writing-tests)
-- ## [Completing the Project](#completing-the-project)
+- ## [Accept the assignment ](#-accept-the-assignment-)
+- ## [Project Organization ](#-project-organization-)
+- ## [Build and run walkthrough ](#-build-and-run-walkthrough-)
+- ## [Writing Tests](#-writing-tests-)
+- ## [Completing the Project](#-completing-the-project-)
 
 <br><br><br><br><br>
 
@@ -112,7 +112,7 @@ We will be using VS Code to view and edit our code. Open your newly cloned proje
 
 
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Project Organization: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Project Organization ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 Once you have cloned the project and you open VSCode, you will see something like this:
 <br><br>
@@ -365,7 +365,7 @@ Now, we can go in and implement the functions one by one and write tests for the
 
 <a name="writing-tests"></a>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Writing Tests: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Writing Tests ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 <br>
 <br>
