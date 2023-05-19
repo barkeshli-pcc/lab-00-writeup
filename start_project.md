@@ -20,7 +20,7 @@
 
 Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV), we need you to _accept_ the assignment. This will create a repo under your github username. But before you click and accept the assignment, let's look at a couple of things a bit more closely.<br>
 
-> <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="200" />
 
 <br>
 
@@ -28,7 +28,7 @@ Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV)
 
 This is your repo name. The name of the assignment followed by your github name.<br>
 
-> <img src="images/lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -36,7 +36,7 @@ This is your repo name. The name of the assignment followed by your github name.
 
 You will _accept_ the assignment by clicking the green button.<br>
 
-> <img src="images/lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -44,7 +44,7 @@ You will _accept_ the assignment by clicking the green button.<br>
 
 Once you accept the assignment, github will begin to creat your assignment repo. You will see this page:<br>
 
-> <img src="images/lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -60,7 +60,7 @@ Give it a few seconds, and reload the page and you should see this:<br>
 
 Take a closer look and you will see the link to your repo. Click it and you will find your assignment repo:<br>
 
-> <img src="images/lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -68,7 +68,7 @@ Take a closer look and you will see the link to your repo. Click it and you will
 
 Bookmark this page or know how to get here. We'll need to check in here soon.<br>
 
-> <img src="images/lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -78,7 +78,7 @@ The green button on the mid-right side that says **Code**, click it and that ope
 
 Click the little clipboard and that will copy the link into your clipboard so you can paste it in the next step. You will use this url to clone your repo:<br>
 
-> <img src="images/lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -94,13 +94,13 @@ and then: `git clone [clone link] [destination_folder]`
 
 Omitting `[destination_folder]` will use the name of the repository. Unless you prefer that, try to use simpler names.
 
-> <img src="images/lab0_images/a-08-clone_and_rename.png" alt="" width="1000"/>
+> <img src="images/lab0_images/a-08-clone_and_rename.png" alt="" width="500"/>
 
 <br>
 
 ## `cd` into this project folder:
 
-> <img src="images/lab0_images/a-09-cd_into_project_folder.png" alt="" width="1000"/>
+> <img src="images/lab0_images/a-09-cd_into_project_folder.png" alt="" width="200"/>
 
 <br>
 
@@ -117,7 +117,7 @@ We will be using VS Code to view and edit our code. Open your newly cloned proje
 Once you have cloned the project and you open VSCode, you will see something like this:
 <br><br>
 
-> <img src="images/lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="200"/>
 
 <br>
 
@@ -183,7 +183,7 @@ Once your project is open in VS Code, we will do a quick excersise to show you h
 On left, click on the button named Extensions.<br>
 Install CMake and CMake Tools if they are not already installed.<br>
 
-> <img src=images/lab0_images/Picture2.png>
+> <img src=images/lab0_images/Picture2.png width="200" >
 
 <br>
 
@@ -204,7 +204,7 @@ enable_testing()
 Right click on `CMakeLists.txt`
 Click on “Clean Reconfigure All Projects”:<br>
 
-> <img src=images/lab0_images/Picture3.png>
+> <img src=images/lab0_images/Picture3.png width="200" >
 
 <br>
 
@@ -218,7 +218,7 @@ A prompt should appear on top, just click:
 
 *If it does not show up, you will need to manually select it. On the bottom there is a button as shown:*<br>
 
-> <img src=images/lab0_images/Picture5.png>
+> <img src=images/lab0_images/Picture5.png  width="200" >
 
 *If it does not show “GCC 6.3.0 mingw32,” click on that button and select it. If there is no option, try scanning for kits and try again.*<br>
 
@@ -233,7 +233,7 @@ You will only need to Reconfigure only once per project.[\*](#cmake-troubleshoot
 Now you can click on the cog that says build on the bottom of the window. Once that is complete, click on the play button and select basic_test to run.<br>
 Your output will look like this.
 
-> <img src=images/lab0_images/Picture7.png>
+> <img src=images/lab0_images/Picture7.png width="200" >
 
 <br>
 
