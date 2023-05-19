@@ -1,270 +1,142 @@
 # Windows Instructions
 
-- ## [Opening commandline](#win_opening_terminal)
 - ## [Installing `git`](#win_installing_git)
 - ## [Installing `cmake`](#win_installing_cmake)
 - ## [Installing `MinGW`](#win_installing_mingw)
 
 ---
 
-<br><br><br><br><br>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Opening the terminal ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# Installing git  <img src="images/win_images/Git-Icon-1788C.png" alt="git icon" width="25"/>
 
 
-> <img src="images/win_images/!com-00-open_command_line.png" alt="vscode_after_cloning" width="1000"/>
+**Grab the latest git setup from** [here](https://gitforwindows.org). |  The ***default option*** for everything is perfectly fine, just keep clicking next.
+:-------------------------:|:-------------------------:
+<img src="images/win_images/git-dl-page.png" width="500" >  |  <img src="images/win_images/git-installed.png" width="440">
 
----
 
-<br><br><br><br><br>
-
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Installing git ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-
-## is `git` installed?
-
-Let's check to see if `git` is installed on your system: type `git --version` at the commandline.
-
-If you do not get a response similar to this, then you do not have `git` on your system and you have to install it.
-
-> <img src="images/win_images/git-00-git_version.png" alt="vscode_after_cloning" width="1000"/>
-
+#### Ensure that `git` was installed successfully:
 <br>
 
-## Download `git`
+Run `git --version` in your command prompt:<br>
 
-Download git from [here](https://git-scm.com/download/win). You should get an exe similar to this: `Git-2.30.0.2-64-bit.exe`<br><br>
-
-> <img src="images/win_images/git-01-download_git_00.png" alt="vscode_after_cloning" width="1000"/>
-
+> <img src="images/win_images/git-install-check.png" alt="vscode_after_cloning" width="500"/>
 <br>
 
-## Install `git`
+## Configure git:
 
-Open/run the executable, and follow the steps to install. You can safely stick with the **default options** for everything.<br>
+The steps in this section are very important.
 
-And Install!<br>
-
-> <img src="images/win_images/git-01-download_git_08png.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-When it is done installing, click Finish. You may view release notes if you want.<br>
-
-> <img src="images/win_images/git-01-download_git_12.png" alt="vscode_after_cloning" width="1000"/>
-
-<br><br>
-
-## Tell git who you are:
-
-Give git your name and email address:
+First, let git know who you are, set your global name and email address in your command prompt, this only needs to be done once.
+You can paste commands into your Command Prompt by right clicking.
 
 ```
-git config --global user.name "barkeshli, sassan"
-git config --global user.email sxbarkeshli@pasadena.edu
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 ```
+This is important because every git commit you make will have this information baked into it. This is your identity.
+
+If you like you may also check that your name and email were set correctly with `git config --get user.name` and `git config --get user.email`
+
+#### Personal access tokens:
+**Very important:** You will not be able to clone your repositories without first setting up a GitHub Personal Access Token. This is key that grants access to all your repositories, so be very careful with it.
+
+Go to `github.com`, click your profile picture on the top right, click on `settings`. On the sidebar of the next page click `Developer settings` at the very bottom. At the bottom of the sidebar on the next page, click `personal access tokens`
+
+Go to your profile settings   |  Go to `Developer Settings` | Create a `classic` token
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="images/win_images/github-settings.png" alt="vscode_after_cloning" width="230" height="600"/>  |  <img src="images/win_images/dev-settings-github.png" alt="vscode_after_cloning" width="200" height="600"/> |  <img src="images/win_images/create-token.png" alt="vscode_after_cloning" width="320" height="600"/>
+
+
+
+| <img src="images/win_images/generate-new-token.png" alt="vscode_after_cloning" width="810" />  |
+| :----------------------------------------: |
+|      **Generate a new token**     |
+
+| <img src="images/win_images/token-access.png" alt="vscode_after_cloning" width="810"/>   |
+| :----------------------------------------: |
+|      **check the `repo` box, leave all the boxes below unchecked, scroll down and click `Generate token`**   |
+
+
+
+#### Finally, here is your token, this is the first and last time GitHub is going to show it to you, so put it in a secure folder or write it down on paper for future access.
+<img src="images/win_images/generated-token.png" alt="vscode_after_cloning" width="800">
+
+## Cloning a repository
+
+
+The first time you attempt to clone one of your own repos you will be met with this prompt  |  Go to the `Token` tab and paste in your token
+:-------------------------:|:-------------------------:
+<img src="images/win_images/token-prompt.png" alt="vscode_after_cloning" width="650" >  |  <img src="images/win_images/token-paste.png" alt="vscode_after_cloning" width="400">
+
+**After doing this once you will have permissions to clone repos unprompted.**
 
 <br>
-
-## Check the version of the git again:
-
-To make sure `git` is intalled correctly, run `git --version` again:<br><br>
-
-> <img src="images/win_images/git-02-git_version.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-<br><br><br><br><br><br>
 
 <a name="win_installing_cmake"></a>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Installing cmake ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# Installing cmake <img src="images/win_images/CMake-logo-triangle-high-res.png" alt="cmake icon" width="25"/>
 
-## is `cmake` installed?
 
-Let's check to see if `cmake` is installed on your system: type `cmake --version` at the commandline.
+### Download `cmake`
 
-If you do not get a response similar to this, then you do not have `cmake` on your system and you have to install it.<br><br>
+Download cmake from [here](https://cmake.org/download/). Choose the `Windows win64-x64 Installer`. You should get an msi with a name similar to this: `cmake-3.19.4-win64-x64.msi`<br>
 
-> <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-## Download `cmake`
-
-Download cmake from [here](https://cmake.org/download/). Choose the Windows win64-x64 Installer. You should get an msi with a name similar to this: `cmake-3.19.4-win64-x64.msi`<br>
-
-> <img src="images/win_images/cm-00-download_site.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/win_images/cmake-dl-page.png" alt="vscode_after_cloning" width="1000"/>
 
 <br>
 
-## Install `cmake`
+You may blindly click through the setup wizard, except for setting the path  |  Important: Make sure to select `Add CMake PATH for all users`
+:-------------------------:|:-------------------------:
+<img src="images/win_images/cm-01-download_00.png" alt="vscode_after_cloning" width="500"/> |  <img src="images/win_images/cm-01-download_03.png" alt="vscode_after_cloning" width="510" />
 
-Open/run the executable, and follow the steps to install.  
+### Ensure that cmake was installed successfully:
 
-> <img src="images/win_images/cm-01-download_00.png" alt="vscode_after_cloning" width="1000"/>
-
+To make sure `cmake` is intalled correctly, run `cmake --version`:
 <br>
 
-**Make sure** to select Add CMake to the system PATH for all users. You can create a Desktop icon if you want, but you will not need to use it for this class.  
+> <img src="images/win_images/cmake-version-check.png" alt="vscode_after_cloning" width="600"/>
 
-> <img src="images/win_images/cm-01-download_03.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-The default install location wshould be C:\Program Files\CMake\ <br>
-
-> <img src="images/win_images/cm-01-download_04.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-When it is done installing, click Finish.<br>
-
-> <img src="images/win_images/cm-01-download_07.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-## Check the version of the cmake again:
-
-To make sure `cmake` is intalled correctly, run `cmake --version` again:
-<br><br>
-
-> <img src="images/win_images/cm-02-cmake_version.png" alt="vscode_after_cloning" width="1000"/>
+If you see something like this, you're good to go!
 
 <br>
 
 ---
 
-# <BR><BR><BR><BR><BR>
 
 <a name="win_installing_mingw"></a>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Install MinGW ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# Installing MinGW <img src="images/win_images/logo01.png" alt="mingw icon" width="25"/>
 
-## is `MinGW` installed?
-
-Let's check to see if `g++` is installed on your system: type `g++ --version` at the commandline.
-
-If you do not get a response similar to this, then you do not have `g++` and/or `MinGW` on your system and you have to install it.<br><br>
-
-> <img src="images/win_images/g++-00-g++_version.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
 
 ## Download `MinGW`
 
-Download cmake from [here](https://sourceforge.net/projects/mingw/files/). You should get an exe named similar to this: `mingw-get-setup.exe`<br><br>
+Download MinGW from [here](https://github.com/niXman/mingw-builds-binaries/releases). Download the release in below screenshot
+> <img src="images/win_images/mingw-64.png" alt="64 mingw release" width="800"/>
 
-## Install `MinGW`/`g++`
+Once downloaded use your favorite archive manager(e.g WinRAR, 7-Zip) to extract the archive straight to your C:\ drive
+> <img src="images/win_images/mingw-extract.png" alt="Extract the release, technically it can go anywhere you like, just set the path in the next step" width="700"/>
 
-Open/run the executable, and follow the steps to install.<br>
-The default Installation location should be C:/MinGW. Once again, you can add a Desktop shortcut, but it will not be neccesary for this class.<br>
 
-> <img src="images/win_images/g++-01-download_02.png" alt="vscode_after_cloning" width="1000"/>
 
-<br>
+## Set your path environment variable <img src="images/win_images/cpp-logo.png" alt="cpp icon" width="20"/>
 
-If you get a warning that MinGW is already installed, you can either reinstall and continue with this walkthrough or choose Run Now and skip to the steps below with the MinGW Install Manager.<br>
 
-> <img src="images/win_images/g++-01-download_03.png" alt="vscode_after_cloning" width="1000"/>
+Search for "path" in the task bar search box. |  Click `Environment Variables` |
+:-------------------------:|:-------------------------:|
+<img src="images/win_images/system-vars.png" alt="vscode_after_cloning" width="600">   |  <img src="images/win_images/enviro-vars.png" alt="vscode_after_cloning" width="600" />
 
-<br>
+Select `Path` variable and click `Edit`| Click `New` and paste in your `MinGW` path `C:\mingw64\bin`
+:-------------------------:|:-------------------------:
+ <img src="images/win_images/edit-path.png" alt="vscode_after_cloning" width="600" > |  <img src="images/win_images/new-path.png" alt="vscode_after_cloning" width="600"/>
 
-When it is done installing, click Continue.<br>
+Click `ok` and exit all the system environment windows
 
-> <img src="images/win_images/g++-01-download_06.png" alt="vscode_after_cloning" width="1000"/>
+Verify the path was set correctly with `g++ --version` and `gdb --version`
+> <img src="images/win_images/cpp-verify-install.png" alt="vscode_after_cloning" width="600"/>
 
-<br>
+If you see that you're all set to start the lab!
 
-The **MinGW Installation Manager** should be opened up automatically. For this class, you will need mingw32-base, mingw-gcc-g++, and mingw23-gcc-objc.
-<br><br>
-
-> <img src="images/win_images/g++-02-selection_00.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-To select a package for installation, right click on it in the menu and select Mark for Installation.<br>
-
-> <img src="images/win_images/g++-02-selection_01.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-Marked packages will look something like this:<br>
-
-> <img src="images/win_images/g++-02-selection_02_zoom.png" alt="vscode_after_cloning" width="1000"/>
-
-<br><br>
-
-you **also** need to select the pthreads package from under <br>
-All Packages -> MinGW Libraries<br>
-Select only the **dev** version<br>
-
-> <img src="images/win_images/99-01-pthread.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-Once all neccesary packages have been marked, go to Installations > Apply Changes to install.<br>
-
-> <img src="images/win_images/g++-02-selection_03.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-Click Apply. This process will take a while.<br>
-
-> <img src="images/win_images/g++-02-selection_04.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
-
-Once the changes are applied you may close the Installation Manager.<br>
-
-> <img src="images/win_images/g++-02-selection_07.png" alt="vscode_after_cloning" width="1000"/>
-
-<br><br>
-
-## Add g++ as a System Variable and to your path
-
-Search for "path" in the task bar search box. Open Edit the system environment variables.
-
-> <img src="images/win_images/g++-03-path_00.png" alt="vscode_after_cloning" width="600"/>
-
-<br>
-
-Click on "Environment Variables..."
-
-> <img src="images/win_images/g++-03-path_01.png" alt="vscode_after_cloning" width="600"/>
-
-<br>
-
-Add the path to the gcc and g++ executables to environment variables as shown below and press OK.<br>
-
-> <img src="images/win_images/g++-03-path_02.png" alt="vscode_after_cloning" width="600"/>
-
-<br>
-
-Next, double click on the **user variable** Path (in the top half of the window). A window like this should pop up:
-
-> <img src="images/win_images/g++-03-path_before.png" alt="vscode_after_cloning" width="600"/>
-
-<br>
-
-Click New, and enter C:\MinGW\bin to the text box. Click OK.<br>
-
-> <img src="images/win_images/g++-03-path_after.png" alt="vscode_after_cloning" width="400"/>
-
-<br>
-
-Your environment and user variables should look like this after you are done:<br>
-
-> <img src="images/win_images/g++-03-path_03.png" alt="vscode_after_cloning" width="400"/>
-
-<br><br><br>
-
-## Check the version of the g++ again:
-
-To make sure `MinGW`/`g++` is intalled correctly, run `g++ --version` again. If the version output doesn't show, reboot your machine and try again.<br><br>
-
-> <img src="images/win_images/g++-00-g++_version.png" alt="vscode_after_cloning" width="1000"/>
-
-<br>
 
 ---
 

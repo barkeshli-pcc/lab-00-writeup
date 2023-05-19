@@ -3,16 +3,17 @@
 - ## [Accept the assignment ](#accept-the-assignment)
 - ## [Project Organization ](#)
 - ## [Build and run walkthrough ](#build-and-run-walkthrough)
-- ## [Writing Tests](#writing-testswriting)
+- ## [Writing Tests](#writing-tests)
 - ## [Completing the Project](#completing-the-project)
 
 <br><br><br><br><br>
 
-<a name="win_accepting_the_assignment"></a>
+<a name="accept-the-assignment"></a>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
-## Here is the **assignment link** for [CS3A](https://classroom.github.com/a/qidO1KYV) and here is the link for [CS8](https://classroom.github.com/a/DYb_nBnE)
+## Here are the **assignment links** for [CS3A](https://classroom.github.com/a/qidO1KYV) and [CS8](https://classroom.github.com/a/DYb_nBnE)
 
 <br>
 
@@ -58,7 +59,7 @@ Give it a few seconds, and reload the page and you should see this:<br>
 
 ## look closer:
 
-Take a closer look and youwill see the link to your repo. Click it and you will find your assignment repo:<br>
+Take a closer look and you will see the link to your repo. Click it and you will find your assignment repo:<br>
 
 > <img src="images/lab0_images/a-05-your_repo_address.png" alt="vscode_after_cloning" width="1000"/>
 
@@ -173,7 +174,7 @@ Another method is to simply click on Terminal > New Terminal on the top.
 
 # <BR><BR><BR><BR><BR>
 
-<a name="win_build_and_run_walkthrough"></a>
+<a name="build-and-run-walkthroug"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -364,7 +365,7 @@ Now, we can go in and implement the functions one by one and write tests for the
 
 # <BR><BR><BR><BR><BR>
 
-<a name="win_writing_tests"></a>
+<a name="writing-tests"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Writing Tests: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -447,7 +448,7 @@ Let's build and run `testB` to make sure our `test_append` and `test_at` pass:
 
 # <BR><BR><BR><BR><BR>
 
-<a name="win_completing_the_project"></a>
+<a name="completing-the-project"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Completing the project ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
