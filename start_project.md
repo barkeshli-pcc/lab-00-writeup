@@ -8,10 +8,9 @@
 
 <br><br><br><br><br>
 
-<a name="accept-the-assignment"></a>
 
-# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+
+# ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Accept the assignment ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ## Here are the **assignment links** for [CS3A](https://classroom.github.com/a/qidO1KYV) and [CS8](https://classroom.github.com/a/DYb_nBnE)
 
@@ -111,7 +110,7 @@ We will be using VS Code to view and edit our code. Open your newly cloned proje
 
 # <BR><BR><BR><BR>
 
-<a name="project-organization"></a>
+
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Project Organization: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -174,7 +173,6 @@ Another method is to simply click on Terminal > New Terminal on the top.
 
 # <BR><BR><BR><BR><BR>
 
-<a name="build-and-run-walkthrough"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
