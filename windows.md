@@ -2,7 +2,7 @@
 
 - ## [Installing `git`](#installing-git--)
 - ## [Installing `cmake`](#installing-cmake-)
-- ## [Installing `MinGW`](#installing-mingw)
+- ## [Installing `MinGW`](#installing-mingw-)
 
 ---
 
