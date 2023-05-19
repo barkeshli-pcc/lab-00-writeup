@@ -20,7 +20,7 @@
 
 Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV), we need you to _accept_ the assignment. This will create a repo under your github username. But before you click and accept the assignment, let's look at a couple of things a bit more closely.<br>
 
-> <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="200" />
+> <img src="images/lab0_images/a-00-accept_assignment.png" alt="vscode_after_cloning" width="300" />
 
 <br>
 
@@ -28,7 +28,7 @@ Once you click on the [assignment link](https://classroom.github.com/a/qidO1KYV)
 
 This is your repo name. The name of the assignment followed by your github name.<br>
 
-> <img src="images/lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/a-01-your_repo_name.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -36,7 +36,7 @@ This is your repo name. The name of the assignment followed by your github name.
 
 You will _accept_ the assignment by clicking the green button.<br>
 
-> <img src="images/lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/a-02-click_to_accept.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -44,7 +44,7 @@ You will _accept_ the assignment by clicking the green button.<br>
 
 Once you accept the assignment, github will begin to creat your assignment repo. You will see this page:<br>
 
-> <img src="images/lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/a-03-waiting_for_setup.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -52,7 +52,7 @@ Once you accept the assignment, github will begin to creat your assignment repo.
 
 Give it a few seconds, and reload the page and you should see this:<br>
 
-> <img src="images/lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/lab0_images/a-04-reload_to_update.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -68,7 +68,7 @@ Take a closer look and you will see the link to your repo. Click it and you will
 
 Bookmark this page or know how to get here. We'll need to check in here soon.<br>
 
-> <img src="images/lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/a-06-your-repo.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -78,7 +78,7 @@ The green button on the mid-right side that says **Code**, click it and that ope
 
 Click the little clipboard and that will copy the link into your clipboard so you can paste it in the next step. You will use this url to clone your repo:<br>
 
-> <img src="images/lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/a-07-copy_clone_link.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -117,7 +117,7 @@ We will be using VS Code to view and edit our code. Open your newly cloned proje
 Once you have cloned the project and you open VSCode, you will see something like this:
 <br><br>
 
-> <img src="images/lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/01-vscode_after_cloning.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -133,7 +133,7 @@ On the left panel (Explorer, ) you will find the `main.cpp` on the root folder, 
 
 <br>
 
-> <img src="images/lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="200"/>
+> <img src="images/lab0_images/02-vscode_file_structure.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -410,7 +410,7 @@ This will display two successful test runs: one for the `stub` test that was alr
 
 This means that our test function returned `true`.<br>
 
-> <img src="images/win_images/test-01-testb_test_init_03.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/win_images/test-01-testb_test_init_03.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
@@ -422,7 +422,7 @@ You will _borrow_ my code for this particular lab, but make sure you comment the
 
 Once we have implemented `_append`, write the test for it in `testB.cpp`. Don't forget to add a `TEST( )` for the `test_append()` function.<br>
 
-> <img src="images/win_images/test-02-testb_test_append_00.png" alt="vscode_after_cloning" width="1000"/>
+> <img src="images/win_images/test-02-testb_test_append_00.png" alt="vscode_after_cloning" width="300"/>
 
 <br>
 
