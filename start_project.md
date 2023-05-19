@@ -1,7 +1,7 @@
 # Starting the lab
 
 - ## [Accept the assignment ](#accept-the-assignment)
-- ## [Project Organization ](#)
+- ## [Project Organization ](#project-organization)
 - ## [Build and run walkthrough ](#build-and-run-walkthrough)
 - ## [Writing Tests](#writing-tests)
 - ## [Completing the Project](#completing-the-project)
@@ -111,7 +111,7 @@ We will be using VS Code to view and edit our code. Open your newly cloned proje
 
 # <BR><BR><BR><BR>
 
-<a name="win_project_organization"></a>
+<a name="project-organization"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Project Organization: ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -174,7 +174,7 @@ Another method is to simply click on Terminal > New Terminal on the top.
 
 # <BR><BR><BR><BR><BR>
 
-<a name="build-and-run-walkthroug"></a>
+<a name="build-and-run-walkthrough"></a>
 
 # ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) build and run walkthrough ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
