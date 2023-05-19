@@ -73,7 +73,6 @@ The first time you attempt to clone one of your own repos you will be met with t
 
 <br>
 
-<a name="win_installing_cmake"></a>
 
 # Installing cmake <img src="images/win_images/CMake-logo-triangle-high-res.png" alt="cmake icon" width="25"/>
 
@@ -104,7 +103,6 @@ If you see something like this, you're good to go!
 ---
 
 
-<a name="win_installing_mingw"></a>
 
 # Installing MinGW <img src="images/win_images/logo01.png" alt="mingw icon" width="25"/>
 
