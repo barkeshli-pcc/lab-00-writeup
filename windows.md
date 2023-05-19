@@ -1,8 +1,8 @@
 # Windows Instructions
 
-- ## [Installing `git`](#win_installing_git--)
-- ## [Installing `cmake`](#win_installing_cmake)
-- ## [Installing `MinGW`](#win_installing_mingw)
+- ## [Installing `git`](#win-installing-git--)
+- ## [Installing `cmake`](#win-installing-cmake)
+- ## [Installing `MinGW`](#win-installing-mingw)
 
 ---
 
